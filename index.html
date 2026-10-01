@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Renata Falco · Psicologia clínica e Gestão de pessoas</title>
-<meta name="description" content="Renata Falco, psicóloga (CRP 09|7780) com mais de 20 anos em gestão de pessoas. Atendimento psicoterapêutico online e mentoria pela Elevare Soluções em Gestão.">
+<title>Renata Falco · Psicóloga online, terapia sistêmica e gestão de pessoas</title>
+<meta name="description" content="Psicóloga online (CRP 09|7780), terapia sistêmica para adultos: ansiedade, esgotamento e carreira. Saúde mental e liderança nas empresas com a Elevare.">
 <link rel="canonical" href="https://renatafalco.com.br/">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -12,18 +12,17 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Renata Falco">
-<meta property="og:title" content="Renata Falco · Psicologia clínica e Gestão de pessoas">
-<meta property="og:description" content="Renata Falco, psicóloga (CRP 09|7780) com mais de 20 anos em gestão de pessoas. Atendimento psicoterapêutico online e mentoria pela Elevare Soluções em Gestão.">
+<meta property="og:title" content="Renata Falco · Psicóloga online, terapia sistêmica e gestão de pessoas">
+<meta property="og:description" content="Psicóloga online (CRP 09|7780), terapia sistêmica para adultos: ansiedade, esgotamento e carreira. Saúde mental e liderança nas empresas com a Elevare.">
 <meta property="og:url" content="https://renatafalco.com.br/">
 <meta property="og:image" content="https://renatafalco.com.br/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Renata Falco, psicóloga, com o símbolo da sua marca">
 <meta name="twitter:card" content="summary_large_image">
-<style>body{margin:0}img{max-width:100%}</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap" rel="stylesheet">
 <style>
   :root{
     color-scheme: light;
@@ -34,266 +33,714 @@
     --line:#E2E5E4;
     --coral:#E23E57;
     --teal:#277A92;
+    --teal-dark:#1E6275;
+    --teal-tint:#E8F2F4;
     --yellow:#F6C23E;
     --green:#2E9E47;
     --navy:#272D74;
+    --navy-dark:#1D2259;
+    --sand:#F4EFEA;
     --display:"Montserrat","Avenir Next","Segoe UI",system-ui,sans-serif;
     --body:"Nunito Sans","Avenir","Segoe UI",system-ui,sans-serif;
+    --gutter:clamp(16px,5vw,56px);
   }
   *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:76px}
   body{
-    background:var(--bg);color:var(--ink);
+    margin:0;background:var(--bg);color:var(--ink);
     font-family:var(--body);font-size:17px;line-height:1.65;
-    padding-inline:clamp(16px,5vw,56px);
+    overflow-x:hidden;
   }
-  .wrap{max-width:1080px;margin-inline:auto}
+  img{max-width:100%;height:auto;display:block}
+  [hidden]{display:none!important}
   a{color:inherit}
-  a:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:4px}
-
-  /* ---------- centro ---------- */
-  .hero{
-    display:grid;grid-template-columns:1.05fr .95fr;align-items:center;
-    gap:clamp(32px,6vw,80px);padding-block:clamp(40px,8vw,96px) clamp(40px,6vw,72px);
-  }
+  a:focus-visible,button:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:6px}
+  .wrap{max-width:1080px;margin-inline:auto;padding-inline:var(--gutter)}
+  section{padding-block:clamp(56px,8vw,104px)}
   .eyebrow{
-    font-family:var(--display);font-size:12.5px;font-weight:500;
-    letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 18px;
+    font-family:var(--display);font-size:12.5px;font-weight:600;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 14px;
   }
-  h1{
-    font-family:var(--display);font-weight:300;font-size:clamp(40px,6vw,64px);
-    line-height:1.05;letter-spacing:-.01em;margin:0 0 28px;text-wrap:balance;
+  h2{
+    font-family:var(--display);font-weight:400;font-size:clamp(28px,3.6vw,40px);
+    line-height:1.15;letter-spacing:-.01em;margin:0 0 18px;text-wrap:balance;
   }
-  .quote{
-    font-family:var(--display);font-weight:300;font-size:clamp(19px,2.1vw,23px);
-    line-height:1.5;margin:0;max-width:36ch;color:var(--ink);
-  }
-  .quote strong{font-weight:600}
-  .quote .turn{display:block;margin-top:14px;font-weight:500}
-  .sub{color:var(--muted);margin:24px 0 0;max-width:44ch}
+  h3{font-family:var(--display);font-weight:500;font-size:20px;line-height:1.3;margin:0 0 8px}
+  .lead{font-size:clamp(17px,1.6vw,19px);color:var(--ink);max-width:60ch;margin:0 0 16px}
+  .muted{color:var(--muted)}
 
-  .portrait{position:relative;width:100%;max-width:440px;aspect-ratio:1;justify-self:center}
-  .halo{position:absolute;width:64%;aspect-ratio:1;border-radius:50%;opacity:.26;mix-blend-mode:multiply}
-  .halo.c1{background:var(--coral);left:18%;top:0}
-  .halo.c2{background:#4FB9C0;left:0;top:34%}
-  .halo.c3{background:var(--yellow);left:36%;top:34%}
-  .photo{
-    position:absolute;left:16%;top:15%;width:68%;aspect-ratio:1;border-radius:50%;
-    overflow:hidden;background:#ECEBEA;box-shadow:0 18px 40px -24px rgba(43,47,54,.45);
-  }
-  .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block}
-  @media (prefers-reduced-motion:no-preference){
-    .halo{animation:breathe 9s ease-in-out infinite}
-    .halo.c2{animation-delay:-3s}.halo.c3{animation-delay:-6s}
-    @keyframes breathe{50%{transform:scale(1.035)}}
+  /* marcação de texto pendente: some quando o texto final entrar */
+  mark.todo{
+    background:#FFF3C4;color:inherit;border-bottom:1px dashed #C9A227;
+    padding:0 .2em;border-radius:3px;
   }
 
-  /* ---------- portas ---------- */
-  .choose{padding-block:8px clamp(48px,7vw,88px)}
-  .choose h2{
-    font-family:var(--display);font-weight:400;font-size:clamp(22px,2.6vw,28px);
-    margin:0 0 8px;text-align:center;text-wrap:balance;
+  /* ---------- botões ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;
+    font-family:var(--display);font-size:15px;font-weight:500;line-height:1.2;
+    padding:13px 22px;border-radius:999px;border:1px solid currentColor;
+    background:transparent;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s;
   }
-  .intro{text-align:center;color:var(--muted);margin:0 0 32px}
-  .doors{display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;gap:clamp(14px,2vw,24px)}
-  .door{
-    display:flex;flex-direction:column;background:var(--surface);
-    border:1px solid var(--line);border-radius:18px;overflow:hidden;
-  }
-  .head{
-    display:flex;flex-direction:column;gap:14px;
-    padding:clamp(22px,3vw,30px) clamp(24px,3.5vw,40px);
+  .btn svg{width:18px;height:18px;flex:none}
+  .btn-teal{background:var(--teal);border-color:var(--teal);color:#fff}
+  .btn-teal:hover{background:var(--teal-dark);border-color:var(--teal-dark)}
+  .btn-navy{background:var(--navy);border-color:var(--navy);color:#fff}
+  .btn-navy:hover{background:var(--navy-dark);border-color:var(--navy-dark)}
+  .btn-line-navy{color:var(--navy)}
+  .btn-line-navy:hover{background:var(--navy);color:#fff}
+  .btn-line-teal{color:var(--teal)}
+  .btn-line-teal:hover{background:var(--teal);color:#fff}
+
+  /* ---------- topo fixo ---------- */
+  .topbar{
+    position:sticky;top:0;z-index:20;background:rgba(247,248,247,.92);
+    backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);
     border-bottom:1px solid var(--line);
   }
-  .clinic .head{background:#E8F2F4}
-  .elev .head{background:#EDF6EC}
-  .body{display:flex;flex-direction:column;gap:14px;padding:clamp(24px,3.5vw,36px) clamp(24px,3.5vw,40px) 8px}
-  .or{
-    align-self:center;width:46px;height:46px;font-size:20px!important;border-radius:50%;
-    display:grid;place-items:center;background:var(--bg);border:1px solid var(--line);
-    font-family:var(--display);font-size:14px;font-weight:500;color:var(--muted);
-  }
-  .mark{height:40px;display:flex;align-items:center}
-  .mark img{height:100%;width:auto;mix-blend-mode:multiply}
-  .mark.elevare img{height:30px}
-  .label{
-    font-family:var(--display);font-size:12.5px;font-weight:600;letter-spacing:.12em;
-    text-transform:uppercase;margin:0;
-  }
-  .clinic .label{color:var(--teal)}
-  .elev .label{color:var(--navy)}
-  .door h3{
-    font-family:var(--display);font-weight:500;font-size:clamp(22px,2.4vw,26px);
-    line-height:1.3;margin:0;text-wrap:balance;
-  }
-  .door p{margin:0;color:var(--muted);max-width:48ch}
-  .door .gain{color:var(--ink)}
-  .gain b{
-    display:block;font-family:var(--display);font-size:12.5px;font-weight:600;
-    letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;
-  }
-  .meta{font-family:var(--display);font-size:13.5px;font-weight:500}
-  .clinic .meta{color:var(--teal)}
-  .elev .meta{color:var(--navy)}
-  .links{
-    display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;
-    padding:20px clamp(24px,3.5vw,40px) clamp(24px,3.5vw,36px);
-  }
-  .btn{
-    display:inline-flex;align-items:center;gap:9px;text-decoration:none;
-    font-family:var(--display);font-size:14px;font-weight:500;
-    padding:11px 18px;border-radius:999px;border:1px solid currentColor;
-    transition:background-color .2s,color .2s;
-  }
-  .btn svg{width:17px;height:17px;flex:none}
-  .clinic .btn{color:var(--teal)}
-  .clinic .btn:hover{background:var(--teal);color:#fff}
-  .elev .btn{color:var(--navy)}
-  .elev .btn:hover{background:var(--navy);color:#fff}
-  .clinic .btn-wa{background:var(--teal);border-color:var(--teal);color:#fff}
-  .clinic .btn-wa:hover{background:#1E6275;border-color:#1E6275}
-  .elev .btn-wa{background:var(--navy);border-color:var(--navy);color:#fff}
-  .elev .btn-wa:hover{background:#1D2259;border-color:#1D2259}
-  .links .btn-wa{flex-basis:100%;justify-content:center}
+  .topbar .wrap{display:flex;align-items:center;gap:20px;height:64px}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto}
+  .brand img{height:34px;width:auto;mix-blend-mode:multiply}
+  .brand span{font-family:var(--display);font-weight:500;font-size:16px;letter-spacing:.02em}
+  .nav{display:flex;gap:22px}
+  .nav a{font-family:var(--display);font-size:14px;font-weight:500;color:var(--muted);text-decoration:none}
+  .nav a:hover{color:var(--ink)}
+  .topbar .btn{padding:9px 18px;font-size:14px}
 
-  /* ---------- trajetória ---------- */
-  .facts{
-    display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,4vw,48px);
-    padding-block:0 clamp(48px,7vw,80px);
+  /* ---------- abertura ---------- */
+  .hero{padding-block:clamp(40px,7vw,88px)}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,6vw,80px);align-items:center}
+  h1{
+    font-family:var(--display);font-weight:300;font-size:clamp(42px,6.4vw,68px);
+    line-height:1.04;letter-spacing:-.015em;margin:0 0 24px;
   }
+  .hero .lead{font-family:var(--display);font-weight:300;font-size:clamp(19px,2.1vw,23px);line-height:1.5;max-width:34ch}
+  .hero .lead strong{font-weight:500}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+  /* composição editorial: foto principal + foto menor sobreposta (as duas frentes) */
+  .duo{
+    position:relative;justify-self:center;width:100%;max-width:420px;
+    padding:0 0 64px 56px;isolation:isolate;
+  }
+  .duo::before{ /* moldura deslocada, em teal */
+    content:"";position:absolute;top:-18px;right:-18px;width:78%;height:72%;
+    border:1px solid var(--teal);border-radius:6px;z-index:-1;
+  }
+  .duo::after{ /* bloco de cor da Elevare atrás da foto menor */
+    content:"";position:absolute;left:18px;bottom:20px;width:46%;height:34%;
+    background:var(--navy);opacity:.08;border-radius:6px;z-index:-1;
+  }
+  .duo .main{
+    width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;
+    border-radius:6px;background:#ECEBEA;box-shadow:0 30px 60px -36px rgba(43,47,54,.55);
+  }
+  .duo .inset{
+    position:absolute;left:0;bottom:0;width:44%;aspect-ratio:1;object-fit:cover;
+    border-radius:6px;border:6px solid var(--bg);box-shadow:0 18px 40px -22px rgba(43,47,54,.55);
+  }
+  .credential{
+    position:absolute;right:-12px;bottom:92px;background:var(--surface);
+    border:1px solid var(--line);border-radius:14px;padding:10px 14px;
+    font-family:var(--display);font-size:12.5px;line-height:1.35;
+    box-shadow:0 10px 30px -18px rgba(43,47,54,.45);
+  }
+  .credential b{display:block;font-weight:600;color:var(--teal)}
+
+  /* ---------- psicoterapia ---------- */
+  #psicoterapia{background:var(--surface);border-block:1px solid var(--line)}
+  .clinic-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(32px,6vw,72px);align-items:start}
+  .label-teal{color:var(--teal)}
+  .label-navy{color:var(--navy)}
+  .question{
+    margin:24px 0;padding:18px 22px;border-left:3px solid var(--teal);background:var(--teal-tint);
+    border-radius:0 12px 12px 0;font-family:var(--display);font-weight:300;font-style:italic;
+    font-size:clamp(17px,1.7vw,19px);line-height:1.5;
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0;padding:0;list-style:none}
+  .chips li{
+    font-family:var(--display);font-size:13.5px;font-weight:500;
+    padding:7px 14px;border-radius:999px;background:var(--bg);border:1px solid var(--line);
+  }
+  .steps{counter-reset:s;list-style:none;margin:36px 0 0;padding:0;display:grid;gap:18px}
+  .steps li{counter-increment:s;display:grid;grid-template-columns:40px 1fr;gap:14px;align-items:start}
+  .steps li::before{
+    content:counter(s);width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+    font-family:var(--display);font-weight:500;color:var(--teal);border:1px solid var(--teal);
+  }
+  .steps b{display:block;font-family:var(--display);font-weight:500}
+  .steps span{color:var(--muted);font-size:16px}
+
+  /* cartão do serviço (padrão Aurea) */
+  .service{
+    position:sticky;top:88px;border:1px solid var(--line);border-radius:20px;overflow:hidden;
+    background:var(--surface);box-shadow:0 20px 50px -36px rgba(43,47,54,.5);
+  }
+  .service-head{
+    background:linear-gradient(135deg,#DDEFF2 0%,#EEF6EE 60%,#FBEFD6 100%);
+    padding:28px 26px 24px;display:flex;flex-direction:column;gap:14px;
+  }
+  .service-head img{height:44px;width:auto;mix-blend-mode:multiply;align-self:flex-start}
+  .service-head p{margin:0;font-family:var(--display);font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}
+  .service-head h3{font-size:24px;margin:0}
+  .service dl{margin:0;padding:8px 26px}
+  .service dl div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+  .service dl div:last-child{border-bottom:0}
+  .service dt{color:var(--muted)}
+  .service dd{margin:0;font-weight:600;text-align:right}
+  .service .btn{margin:6px 26px 26px;width:calc(100% - 52px)}
+  .privacy{font-size:15px;color:var(--muted);margin-top:28px;display:flex;gap:12px;align-items:flex-start}
+  .privacy svg{flex:none;width:20px;height:20px;margin-top:3px;color:var(--teal)}
+
+  /* ---------- agenda ---------- */
+  #agendar{background:var(--teal-tint)}
+  #agendar .head{text-align:center;max-width:620px;margin:0 auto 36px}
+  .booking{
+    max-width:920px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:20px;
+    display:grid;grid-template-columns:1.1fr .9fr;overflow:hidden;
+  }
+  .cal{padding:26px clamp(18px,3vw,32px);border-right:1px solid var(--line)}
+  .tz{font-size:13.5px;color:var(--muted);font-style:italic;margin:0 0 16px;text-align:center}
+  .cal-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+  .cal-nav strong{font-family:var(--display);font-weight:500}
+  .icon-btn{
+    width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);
+    display:grid;place-items:center;cursor:pointer;color:var(--ink);
+  }
+  .icon-btn:disabled{opacity:.35;cursor:default}
+  .icon-btn svg{width:16px;height:16px}
+  .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+  .dow{font-family:var(--display);font-size:12px;color:var(--muted);padding:6px 0}
+  .day{
+    aspect-ratio:1;max-width:46px;width:100%;margin:auto;border-radius:50%;border:0;background:none;
+    font-family:var(--display);font-size:14.5px;color:#B5BABF;cursor:default;position:relative;
+  }
+  .day.open{color:var(--ink);font-weight:600;cursor:pointer}
+  .day.open::after{content:"";position:absolute;left:50%;bottom:5px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--teal)}
+  .day.open:hover{background:var(--teal-tint)}
+  .day.sel{background:var(--teal);color:#fff}
+  .day.sel::after{background:#fff}
+  .day.today{box-shadow:inset 0 0 0 1px var(--line)}
+  .slots{padding:26px clamp(18px,3vw,32px);display:flex;flex-direction:column;gap:16px}
+  .slots-title{font-family:var(--display);font-weight:500;margin:0}
+  .slot-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px}
+  .slot{
+    font-family:var(--display);font-size:15px;font-weight:500;padding:11px 0;border-radius:999px;
+    border:1px solid var(--teal);background:var(--surface);color:var(--teal);cursor:pointer;
+  }
+  .slot:hover{background:var(--teal-tint)}
+  .slot[aria-pressed="true"]{background:var(--teal);color:#fff}
+  .empty{color:var(--muted);margin:0}
+  details.summary{border:1px solid var(--line);border-radius:14px;padding:4px 16px;font-size:15px}
+  details.summary summary{cursor:pointer;padding:10px 0;font-family:var(--display);font-weight:500;list-style:none;display:flex;justify-content:space-between}
+  details.summary summary::after{content:"+";color:var(--muted)}
+  details.summary[open] summary::after{content:"−"}
+  details.summary p{margin:0 0 4px}
+  details.summary p:last-child{margin-bottom:12px}
+  .slots .btn{width:100%}
+  .slots .btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
+  .fineprint{font-size:13.5px;color:var(--muted);margin:0}
+
+  /* ---------- empresas (Elevare) ---------- */
+  .elev-top{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-bottom:36px}
+  .elev-top img{height:38px;width:auto;mix-blend-mode:multiply}
+  .products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .product{
+    background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px 22px;
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .product .n{font-family:var(--display);font-size:13px;font-weight:600;color:var(--navy);letter-spacing:.08em}
+  .product p{margin:0;color:var(--muted);font-size:15.5px}
+  .sectors{margin-top:36px;display:grid;grid-template-columns:auto 1fr;gap:16px 28px;align-items:start}
+  .sectors .eyebrow{margin:6px 0 0}
+  .elev-cta{margin-top:40px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+  /* ---------- depoimentos ---------- */
+  #depoimentos{background:var(--sand)}
+  .depo{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,72px);align-items:start}
+  .depo > *{min-width:0}
+  .depo-side{position:sticky;top:96px}
+  .depo-side img{
+    width:100%;max-width:340px;aspect-ratio:4/5;object-fit:cover;object-position:72% 30%;
+    border-radius:6px;margin-top:28px;box-shadow:14px 14px 0 #E9DED3;
+  }
+  .quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .q{
+    margin:0;background:var(--surface);border-radius:18px;padding:26px 24px 22px;
+    display:flex;flex-direction:column;gap:12px;border:1px solid #EAE2DA;
+  }
+  .q.wide{grid-column:1/-1}
+  .q::before{
+    content:"\201C";font-family:Georgia,"Times New Roman",serif;font-size:56px;line-height:.6;
+    color:var(--coral);opacity:.75;height:24px;
+  }
+  .q blockquote{margin:0;font-family:var(--display);font-weight:300;font-size:17.5px;line-height:1.55}
+  .q blockquote strong{font-weight:500}
+  .q.wide blockquote{font-size:clamp(18px,1.9vw,21px)}
+  .q figcaption{margin-top:auto;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px}
+  .q figcaption::before{content:"";width:22px;height:1px;background:#CDBFB2}
+  .depo-note{font-size:13.5px;color:var(--muted);margin:20px 0 0}
+
+  /* ---------- sobre ---------- */
+  .about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(32px,6vw,72px);align-items:center}
+  .about img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px}
+  .about ul{margin:16px 0 0;padding-left:20px}
+  .about li{margin-bottom:6px}
+  .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,4vw,40px);margin-top:56px}
   .fact{border-top:1px solid var(--line);padding-top:18px}
-  .fact b{
-    display:block;font-family:var(--display);font-weight:300;font-size:clamp(30px,3.4vw,40px);
-    line-height:1.1;margin-bottom:6px;font-variant-numeric:tabular-nums;
-  }
+  .fact b{display:block;font-family:var(--display);font-weight:300;font-size:clamp(30px,3.4vw,40px);line-height:1.1;margin-bottom:6px}
   .fact:nth-child(1) b{color:var(--navy)}
   .fact:nth-child(2) b{color:var(--teal)}
   .fact:nth-child(3) b{color:var(--coral)}
   .fact span{color:var(--muted);font-size:15px}
 
-  footer{
-    border-top:1px solid var(--line);padding-block:28px 40px;
-    display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;
-    font-size:14px;color:var(--muted);
+  /* ---------- rodapé ---------- */
+  footer{background:var(--navy);color:#E6E8F5;padding-block:clamp(48px,7vw,80px) 32px}
+  footer a{text-decoration:none}
+  .foot{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:36px}
+  .foot h2{color:#fff;font-size:clamp(24px,2.8vw,30px)}
+  .foot p{margin:0 0 18px;color:#C9CCE6}
+  .foot .eyebrow{color:#A9AED8}
+  .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+  .foot li a{display:inline-flex;align-items:center;gap:10px;color:#fff}
+  .foot li a:hover{text-decoration:underline}
+  .foot svg{width:18px;height:18px;flex:none}
+  .btn-white{background:#fff;border-color:#fff;color:var(--navy)}
+  .btn-white:hover{background:transparent;color:#fff}
+  .legal{
+    margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.16);
+    display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;font-size:13.5px;color:#A9AED8;
   }
-  .contact{
-    display:flex;align-items:center;justify-content:space-between;gap:32px;
-    border-top:1px solid var(--line);padding-block:clamp(36px,5vw,56px);
-  }
-  .contact h2{
-    font-family:var(--display);font-weight:400;font-size:clamp(22px,2.6vw,28px);margin:0 0 8px;
-  }
-  .contact p{margin:0 0 22px;color:var(--muted);max-width:52ch}
-  .wa{
-    display:inline-flex;align-items:center;gap:10px;text-decoration:none;
-    font-family:var(--display);font-size:15px;font-weight:500;
-    padding:13px 22px;border-radius:999px;background:var(--ink);color:#fff;
-    transition:background-color .2s;
-  }
-  .wa:hover{background:var(--teal)}
-  .wa svg{width:19px;height:19px;flex:none}
-  .qr{margin:0;display:flex;flex-direction:column;align-items:center;gap:8px;flex:none}
-  .qr img{
-    display:block;width:140px;height:140px;padding:10px;background:#fff;
-    border:1px solid var(--line);border-radius:12px;box-sizing:content-box;image-rendering:pixelated;
-  }
-  .qr figcaption{font-size:13px;color:var(--muted)}
+  .legal mark.todo{color:var(--ink)}
 
+  /* ---------- celular ---------- */
+  @media (max-width:900px){
+    .products{grid-template-columns:1fr 1fr}
+  }
   @media (max-width:820px){
-    .hero{grid-template-columns:1fr;text-align:center;padding-top:32px}
-    .portrait{order:-1;max-width:320px}
-    .quote,.sub{margin-inline:auto}
-    .doors{grid-template-columns:1fr}
-    .or{justify-self:center}
-    .facts{grid-template-columns:1fr}
-    .contact{text-align:center;justify-content:center}
-    .contact p{margin-inline:auto}
-    .qr{display:none}
+    .nav{display:none}
+    .brand span{font-size:15px}
+    .hero .wrap,.clinic-grid,.depo,.about,.booking,.foot{grid-template-columns:1fr}
+    .hero .wrap{text-align:center}
+    .hero .lead{margin-inline:auto}
+    .hero-ctas{justify-content:center}
+    .duo{order:-1;max-width:330px;padding:0 0 48px 40px;margin-right:18px}
+    .duo::before{top:-12px;right:-12px}
+    .credential{right:-8px;bottom:64px;text-align:left}
+    .service,.depo-side{position:static}
+    .cal{border-right:0;border-bottom:1px solid var(--line)}
+    .elev-top{grid-template-columns:1fr}
+    .elev-top img{order:-1}
+    .sectors{grid-template-columns:1fr}
+    .depo-side{text-align:center}
+    .depo-side img{max-width:240px;margin-inline:auto}
+    /* depoimentos: carrossel de arrastar no celular */
+    .quotes{
+      display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;
+      margin-inline:calc(-1 * var(--gutter));padding:4px var(--gutter) 12px;
+      scrollbar-width:none;
+    }
+    .quotes::-webkit-scrollbar{display:none}
+    .q,.q.wide{flex:0 0 84%;scroll-snap-align:center}
+    .dots{display:flex;justify-content:center;gap:8px;margin-top:8px}
+    .dots span{width:7px;height:7px;border-radius:50%;background:#D8CCC0;transition:background .2s,width .2s}
+    .dots span.on{background:var(--coral);width:20px;border-radius:4px}
+    .about img{max-width:380px;margin-inline:auto}
+    .facts{grid-template-columns:1fr;margin-top:40px}
+    .legal{justify-content:center;text-align:center}
+  }
+  @media (min-width:821px){.dots{display:none}}
+  @media (max-width:520px){
+    .products{grid-template-columns:1fr}
+    .hero-ctas .btn{width:100%}
+    .topbar .btn{padding:8px 14px}
   }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="hero">
-    <div>
-      <p class="eyebrow">Psicóloga · CRP 09|7780 · Gestão de pessoas</p>
-      <h1>Renata Falco</h1>
-      <p class="quote">
-        Psicóloga há 20 anos, com mais de duas décadas dentro do mundo corporativo, em gestão de pessoas.
-        Conheço o trabalho pelo olhar de quem o vive, em qualquer posição: <strong>de quem decide como ele funciona</strong> e <strong>de quem sente, no dia a dia, o efeito de cada decisão</strong>.
-        <span class="turn">Por isso, todo trabalho começa por entender a demanda real.</span>
-      </p>
-      <p class="sub">Uma leitura analítica e assertiva, que dá base a um trabalho desenhado para cada pessoa e para cada empresa.</p>
-    </div>
-    <div class="portrait" aria-hidden="false">
-      <span class="halo c1"></span><span class="halo c2"></span><span class="halo c3"></span>
-      <div class="photo"><img src="assets/renata-falco.jpg" alt="Renata Falco sorrindo, de camisa branca, sentada em um banco de madeira"></div>
-    </div>
-  </header>
 
-  <section class="choose" aria-labelledby="escolha">
-    <h2 id="escolha">Duas frentes de atuação que se complementam</h2>
-    <p class="intro">Cada uma com o seu propósito, as duas com a mesma base: um atendimento personalizado, construído para cada pessoa e para cada empresa.</p>
-    <div class="doors">
-      <article class="door clinic">
-        <div class="head">
-          <div class="mark"><img src="assets/simbolo-renata-falco.png" alt="Símbolo Renata Falco Psicóloga"></div>
-          <p class="label">Psicologia clínica</p>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#inicio"><img src="assets/simbolo-renata-falco.png" alt="" width="34" height="34"><span>Renata Falco</span></a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#psicoterapia">Psicoterapia</a>
+      <a href="#empresas">Empresas</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+    <a class="btn btn-teal" href="#agendar">Agendar</a>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <!-- ===== Abertura ===== -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Psicóloga · CRP 09|7780 · Terapia online · Gestão de pessoas</p>
+        <h1>Renata Falco</h1>
+        <p class="lead">Formada em Psicologia pela PUC Goiás há 20 anos, com mais de duas décadas no mundo corporativo, em gestão de pessoas. <strong>Todo trabalho começa por entender a demanda real.</strong></p>
+        <div class="hero-ctas">
+          <a class="btn btn-teal" href="#psicoterapia">Terapia online</a>
+          <a class="btn btn-line-navy" href="#empresas">Soluções para empresas</a>
         </div>
-        <div class="body">
-          <h3>Autoconhecimento com direção.</h3>
-          <p>Esgotamento, ansiedade, sobrecarga, conflitos com a liderança, o desejo de uma carreira com mais sentido. Um processo psicoterapêutico individual, construído a partir da sua história e do momento que você está vivendo, seja na vida pessoal, seja na trajetória profissional.</p>
-          <p class="gain"><b>O que o processo desenvolve</b>Favorece mais consciência de si e das próprias escolhas, amplia a leitura das relações e do contexto em que você vive e trabalha, e potencializa posicionamentos mais assertivos.</p>
-          <p class="meta">Atendimento psicoterapêutico · Individual · Online</p>
-        </div>
-        <div class="links">
-          <a class="btn btn-wa" href="https://wa.me/qr/YGYMQ7XMUGFYH1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Conversar no WhatsApp</a>
-          <a class="btn" href="https://www.instagram.com/renata.falco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>@renata.falco</a>
-          <a class="btn" href="https://www.linkedin.com/in/renatafalco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 8.6h3.1V19H5.2zM6.75 3.9a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10.3 8.6h3v1.4h.04c.42-.8 1.44-1.64 2.97-1.64 3.17 0 3.76 2.09 3.76 4.8V19h-3.1v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V19h-3.1z"/></svg>Renata Falco</a>
-        </div>
-      </article>
-      <span class="or" aria-hidden="true">+</span>
-      <article class="door elev">
-        <div class="head">
-          <div class="mark elevare"><img src="assets/elevare.png" alt="Elevare"></div>
-          <p class="label">Gestão de pessoas</p>
-        </div>
-        <div class="body">
-          <h3>Diagnóstico preciso, desenvolvimento com método.</h3>
-          <p>Rotatividade, afastamentos, conflitos entre áreas, lideranças e profissionais sobrecarregados, treinamentos que não atingiram o resultado esperado. Cada cenário tem causas próprias, e é por elas que o trabalho começa.</p>
-          <p class="gain"><b>Como funciona</b>Um diagnóstico analítico do cenário, das pessoas e dos processos. A partir dele, a mentoria, individual ou para lideranças e equipes, é desenhada para aquela realidade específica.</p>
-          <p class="meta">Mentoria individual · Lideranças e equipes · Empresas</p>
-        </div>
-        <div class="links">
-          <a class="btn btn-wa" href="https://wa.me/qr/YGYMQ7XMUGFYH1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Conversar no WhatsApp</a>
-          <a class="btn" href="https://www.instagram.com/elevaregestao/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>@elevaregestao</a>
-          <a class="btn" href="https://www.linkedin.com/company/elevaresolucoesemgestao/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 8.6h3.1V19H5.2zM6.75 3.9a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10.3 8.6h3v1.4h.04c.42-.8 1.44-1.64 2.97-1.64 3.17 0 3.76 2.09 3.76 4.8V19h-3.1v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V19h-3.1z"/></svg>Elevare Soluções em Gestão</a>
-        </div>
-      </article>
+      </div>
+      <div class="duo">
+        <img class="main" src="assets/renata-abertura.jpg" alt="Renata Falco sorrindo, de camisa branca e óculos" width="880" height="1100">
+        <img class="inset" src="assets/renata-empresas.jpg" alt="Renata Falco sentada em uma poltrona, diante de um painel de madeira" width="520" height="520">
+        <p class="credential"><b>Terapia sistêmica</b>Online, para adultos</p>
+      </div>
     </div>
   </section>
 
-  <section class="facts" aria-label="Trajetória">
-    <div class="fact"><b>20 anos</b><span>de formada em Psicologia, com mais de 10 anos de atendimento clínico e mais de 20 em gestão de pessoas</span></div>
-    <div class="fact"><b>+1.200</b><span>sessões individuais realizadas só nos últimos cinco anos</span></div>
-    <div class="fact"><b>+10 estados</b><span>com empresas de 100 a mais de 5 mil profissionais</span></div>
-  </section>
+  <!-- ===== Psicoterapia ===== -->
+  <section id="psicoterapia" aria-labelledby="t-psi">
+    <div class="wrap clinic-grid">
+      <div>
+        <p class="eyebrow label-teal">Psicologia clínica · Terapia online</p>
+        <h2 id="t-psi">Terapia online com abordagem sistêmica</h2>
+        <p class="lead">Na terapia sistêmica, eu olho para você dentro das relações em que você vive e trabalha: a família de onde veio, os relacionamentos, a casa, a equipe, a empresa. A ansiedade de domingo à noite, o cansaço que não passa, a sensação de segurar tudo ganham outra leitura quando vistos dentro dessas relações.</p>
+        <p class="question">Em terapia, a pergunta deixa de ser só “o que há de errado comigo?” e passa a ser “que lugar eu ocupo nessas relações, e que padrão estou repetindo sem perceber?”</p>
+        <p class="muted" style="margin:0">Quando esse padrão fica visível, dá para escolher outro movimento.</p>
 
-  <section class="contact" aria-labelledby="contato">
-    <div class="contact-text">
-      <h2 id="contato">Atendimentos online</h2>
-      <p>Para psicoterapia, mentoria ou atuação na sua empresa, o primeiro contato é pelo WhatsApp.</p>
-      <a class="wa" href="https://wa.me/qr/YGYMQ7XMUGFYH1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Conversar no WhatsApp</a>
+        <p class="eyebrow" style="margin-top:36px">Temas que chegam às sessões</p>
+        <ul class="chips">
+          <li>Ansiedade</li>
+          <li>Esgotamento e burnout</li>
+          <li>Sobrecarga emocional</li>
+          <li>Relacionamentos e família</li>
+          <li>Conflitos com a liderança</li>
+          <li>Autoconhecimento</li>
+          <li>Carreira com mais sentido</li>
+        </ul>
+
+        <ol class="steps" aria-label="Como funciona">
+          <li><div><b>Você escolhe um horário</b><span>Na agenda abaixo, entre os horários livres para primeira sessão.</span></div></li>
+          <li><div><b>Eu confirmo pelo WhatsApp</b><span>Com o link da sessão e os dados do PIX.</span></div></li>
+          <li><div><b>Primeira sessão</b><span>Para entender a sua demanda e combinar como seguimos.</span></div></li>
+          <li><div><b>Sessões semanais ou quinzenais</b><span>Os próximos horários são combinados diretamente entre nós.</span></div></li>
+        </ol>
+
+        <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg><span>As sessões são por vídeo e seguem o sigilo previsto no Código de Ética Profissional do Psicólogo. Para aproveitar melhor, escolha um lugar reservado, onde você possa falar à vontade.</span></p>
+      </div>
+
+      <aside class="service" aria-label="Serviço">
+        <div class="service-head">
+          <img src="assets/simbolo-renata-falco.png" alt="">
+          <p>Psicoterapia</p>
+          <h3>Primeira sessão online</h3>
+        </div>
+        <dl>
+          <div><dt>Formato</dt><dd>Online, por vídeo</dd></div>
+          <div><dt>Atendimento</dt><dd>Individual, para adultos</dd></div>
+          <div><dt>Idade</dt><dd>A partir de 18 anos</dd></div>
+          <div><dt>Duração</dt><dd>1 hora</dd></div>
+          <div><dt>Frequência</dt><dd>Semanal ou quinzenal</dd></div>
+          <div><dt>Pagamento</dt><dd>Via PIX</dd></div>
+        </dl>
+        <a class="btn btn-teal" href="#agendar">Agendar</a>
+      </aside>
     </div>
-    <figure class="qr">
-      <img src="assets/whatsapp-qr.png" alt="QR Code para conversar com Renata Falco no WhatsApp" width="140" height="140">
-      <figcaption>Aponte a câmera do celular</figcaption>
-    </figure>
   </section>
 
-  <footer>
-    <span>Renata Falco · Psicóloga · CRP 09|7780</span>
-    <span>Elevare Soluções em Gestão</span>
-  </footer>
-</div>
+  <!-- ===== Agenda ===== -->
+  <section id="agendar" aria-labelledby="t-agenda">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow label-teal">Agenda online</p>
+        <h2 id="t-agenda">Agende a sua primeira sessão</h2>
+        <p class="muted" style="margin:0">Terapia online, individual, com 1 hora de duração. Pagamento via PIX.</p>
+      </div>
+
+      <div class="booking">
+        <div class="cal">
+          <p class="tz">Horário de Brasília</p>
+          <div class="cal-nav">
+            <button class="icon-btn" id="prev" type="button" aria-label="Mês anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <strong id="month" aria-live="polite"></strong>
+            <button class="icon-btn" id="next" type="button" aria-label="Próximo mês"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+          </div>
+          <div class="grid" id="dows" aria-hidden="true"></div>
+          <div class="grid" id="days" role="group" aria-label="Dias do mês"></div>
+        </div>
+
+        <div class="slots">
+          <p class="slots-title" id="slots-title" aria-live="polite"></p>
+          <div class="slot-list" id="slot-list"></div>
+          <button class="btn btn-line-teal" id="next-free" type="button" hidden>Próxima disponibilidade</button>
+          <details class="summary" open>
+            <summary>Detalhes do serviço</summary>
+            <p><b>Primeira sessão de terapia online · 1 hora</b></p>
+            <p id="sum-when" class="muted">Escolha um dia e um horário</p>
+            <p class="muted">Renata de Oliveira Falco · CRP 09|7780</p>
+            <p class="muted">Pagamento via PIX</p>
+          </details>
+          <a class="btn btn-teal" id="confirm" href="#" aria-disabled="true" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Próximo: confirmar no WhatsApp
+          </a>
+          <p class="fineprint">A mensagem já vai pronta, só com o dia e o horário. Eu confirmo a vaga e envio o link da sessão e os dados do PIX.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Empresas ===== -->
+  <section id="empresas" aria-labelledby="t-emp">
+    <div class="wrap">
+      <div class="elev-top">
+        <div>
+          <p class="eyebrow label-navy">Gestão de pessoas · Elevare</p>
+          <h2 id="t-emp">Diagnóstico preciso, desenvolvimento com método.</h2>
+          <p class="lead" style="margin:0">Rotatividade, afastamentos, conflitos entre áreas, saúde mental no trabalho. A mesma lente sistêmica da clínica orienta o trabalho nas empresas: uma equipe também é um sistema, e o diagnóstico mostra onde lideranças, fluxos e relações pedem ajuste.</p>
+        </div>
+        <img src="assets/elevare.png" alt="Elevare Soluções em Gestão">
+      </div>
+
+      <div class="products">
+        <article class="product"><span class="n">01</span><h3>Diagnóstico organizacional</h3><p>Leitura analítica do cenário, das pessoas e dos processos. É por ele que todo trabalho começa.</p></article>
+        <article class="product"><span class="n">02</span><h3>Mentoria de carreira e liderança</h3><p>Individual, para profissionais e lideranças em momento de decisão, transição ou ampliação de responsabilidade.</p></article>
+        <article class="product"><span class="n">03</span><h3>Desenvolvimento de lideranças e equipes</h3><p>Treinamentos vivenciais desenhados para a demanda da empresa, com prática entre os encontros.</p></article>
+        <article class="product"><span class="n">04</span><h3>Palestras e workshops</h3><p>Saúde mental no trabalho, autorresponsabilidade, liderança e relações de trabalho.</p></article>
+      </div>
+
+      <div class="sectors">
+        <p class="eyebrow">Experiência em</p>
+        <ul class="chips" style="margin:0">
+          <li>Varejo</li><li>Indústria</li><li>Serviços</li><li>Agronegócio</li><li>Investimentos</li>
+          <li>Advocacia</li><li>Franquias</li><li>Distribuição de medicamentos</li><li>Tecnologia</li>
+        </ul>
+      </div>
+
+      <div class="elev-cta">
+        <a class="btn btn-navy" href="https://wa.me/5562981861276?text=Ol%C3%A1%2C%20Renata!%20Gostaria%20de%20marcar%20uma%20conversa%20de%20diagn%C3%B3stico%20para%20a%20minha%20empresa." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Marcar conversa de diagnóstico</a>
+        <a class="btn btn-line-navy" href="https://www.instagram.com/elevaregestao/" target="_blank" rel="noopener">@elevaregestao</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Depoimentos ===== -->
+  <section id="depoimentos" aria-labelledby="t-depo">
+    <div class="wrap depo">
+      <div class="depo-side">
+        <p class="eyebrow">Depoimentos</p>
+        <h2 id="t-depo">Palavras que recebi pelo caminho</h2>
+        <p class="muted" style="margin:0">Trechos de mensagens enviadas espontaneamente, publicados com autorização e sem identificação.</p>
+        <img src="assets/renata-depoimentos.jpg" alt="Renata Falco sorrindo, sentada, olhando para o lado" width="720" height="720" loading="lazy">
+      </div>
+
+      <div>
+        <div class="quotes" id="quotes">
+          <figure class="q wide">
+            <blockquote>Muito do profissional que me tornei nasceu daquilo que aprendi observando o seu exemplo. <strong>Sua postura, seus ensinamentos e a forma como conduzia o trabalho foram fundamentais para a construção da minha trajetória.</strong></blockquote>
+            <figcaption>Mensagem recebida</figcaption>
+          </figure>
+          <figure class="q">
+            <blockquote>Você foi um dos primeiros e mais importantes exemplos e inspiração que tive. Importante você saber que fez parte da minha base de formação… e eu sou muito grata.</blockquote>
+            <figcaption>Mensagem recebida</figcaption>
+          </figure>
+          <figure class="q">
+            <blockquote>Você é uma das poucas pessoas que me sinto acolhida! […] <strong>Você me dá segurança!</strong></blockquote>
+            <figcaption>Mensagem recebida</figcaption>
+          </figure>
+          <figure class="q">
+            <blockquote>Mais uma vez, muito obrigada, obrigada mesmo por isso tudo. Vejo uma evolução gritante em tão pouco tempo, de uma vida inteira…</blockquote>
+            <figcaption>Mensagem recebida</figcaption>
+          </figure>
+          <figure class="q">
+            <blockquote>Você é maravilhosa demais em minha vida. Eu quero poder potencializar isso para a humanidade…</blockquote>
+            <figcaption>Mensagem recebida</figcaption>
+          </figure>
+        </div>
+        <div class="dots" id="dots" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sobre ===== -->
+  <section id="sobre" aria-labelledby="t-sobre" style="background:var(--surface);border-top:1px solid var(--line)">
+    <div class="wrap">
+      <div class="about">
+        <img src="assets/renata-sobre.jpg" alt="Renata Falco de roupa clara, com a mão no queixo, olhando para o lado" width="880" height="1100" loading="lazy">
+        <div>
+          <p class="eyebrow">Sobre</p>
+          <h2 id="t-sobre">Conheço o trabalho pelo olhar de quem o vive</h2>
+          <p class="lead">Mais de 20 anos em gestão de pessoas, em empresas de perfil multinacional a familiar, no varejo, na indústria e em serviços. De quem decide como o trabalho funciona a quem sente, no dia a dia, o efeito de cada decisão.</p>
+          <p class="muted">Experiência em desenvolvimento organizacional, gestão estratégica e sistêmica de pessoas e processos, e na implantação de governança, compliance e gestão de riscos.</p>
+          <ul>
+            <li>Formada em Psicologia pela PUC Goiás</li>
+            <li>Psicóloga · CRP 09|7780</li>
+            <li>Terapia sistêmica</li>
+            <li><a href="https://www.linkedin.com/in/renatafalco/" target="_blank" rel="noopener">Trajetória completa no LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>20 anos</b><span>de formada em Psicologia, com mais de 10 anos de atendimento clínico e mais de 20 em gestão de pessoas</span></div>
+        <div class="fact"><b>+1.200</b><span>sessões individuais realizadas só nos últimos cinco anos</span></div>
+        <div class="fact"><b>+10 estados</b><span>com empresas de 100 a mais de 5 mil profissionais</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== Rodapé ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h2>Atendimentos online</h2>
+        <p>Para psicoterapia, mentoria ou atuação na sua empresa.</p>
+        <a class="btn btn-white" href="#agendar">Agendar psicoterapia</a>
+      </div>
+      <div>
+        <p class="eyebrow">Psicologia clínica</p>
+        <ul>
+          <li><a href="https://wa.me/5562981861276" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/renata.falco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg>@renata.falco</a></li>
+          <li><a href="https://www.linkedin.com/in/renatafalco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 8.6h3.1V19H5.2zM6.75 3.9a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10.3 8.6h3v1.4h.04c.42-.8 1.44-1.64 2.97-1.64 3.17 0 3.76 2.09 3.76 4.8V19h-3.1v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V19h-3.1z"/></svg>Renata Falco</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">Gestão de pessoas</p>
+        <ul>
+          <li><a href="https://www.instagram.com/elevaregestao/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg>@elevaregestao</a></li>
+          <li><a href="https://www.linkedin.com/company/elevaresolucoesemgestao/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 8.6h3.1V19H5.2zM6.75 3.9a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10.3 8.6h3v1.4h.04c.42-.8 1.44-1.64 2.97-1.64 3.17 0 3.76 2.09 3.76 4.8V19h-3.1v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V19h-3.1z"/></svg>Elevare Soluções em Gestão</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>Renata de Oliveira Falco · Psicóloga · CRP 09|7780</span>
+      <span>Elevare Soluções em Gestão</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ===== Agenda da primeira sessão =====
+   Para mudar os horários, edite só este bloco.
+   Dias da semana: 0 = domingo, 1 = segunda ... 6 = sábado. */
+const AGENDA = {
+  whatsapp: "5562981861276",
+  horarios: {
+    1: ["14:30", "16:00", "17:30"], // segunda
+    2: ["10:30", "12:00"],          // terça
+    4: ["07:00", "09:30"]           // quinta
+  },
+  antecedenciaHoras: 24, // não mostra horário com menos de 24 h
+  diasAFrente: 60,       // até onde a agenda abre
+  bloqueados: ["2026-10-12", "2026-11-02", "2026-11-15", "2026-11-20", "2026-12-25", "2027-01-01"]
+};
+
+(function(){
+  const pad = n => String(n).padStart(2, "0");
+  const key = d => d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+  const fmtMonth = new Intl.DateTimeFormat("pt-BR", {month:"long", year:"numeric"});
+  const fmtDay = new Intl.DateTimeFormat("pt-BR", {weekday:"long", day:"numeric", month:"long"});
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const last = new Date(today); last.setDate(last.getDate() + AGENDA.diasAFrente);
+  const minTime = now.getTime() + AGENDA.antecedenciaHoras * 3600e3;
+
+  function slotsFor(d){
+    if (d < today || d > last || AGENDA.bloqueados.includes(key(d))) return [];
+    return (AGENDA.horarios[d.getDay()] || []).filter(h => {
+      const [hh, mm] = h.split(":").map(Number);
+      return new Date(d.getFullYear(), d.getMonth(), d.getDate(), hh, mm).getTime() >= minTime;
+    });
+  }
+  function nextFree(from){
+    const d = new Date(from);
+    while (d <= last){ if (slotsFor(d).length) return new Date(d); d.setDate(d.getDate() + 1); }
+    return null;
+  }
+
+  const $ = id => document.getElementById(id);
+  const daysEl = $("days"), monthEl = $("month"), listEl = $("slot-list"), titleEl = $("slots-title");
+  const confirmEl = $("confirm"), sumEl = $("sum-when"), nextFreeEl = $("next-free");
+  let view = new Date(today.getFullYear(), today.getMonth(), 1);
+  let selDay = nextFree(today), selTime = null;
+  if (selDay) view = new Date(selDay.getFullYear(), selDay.getMonth(), 1);
+
+  $("dows").innerHTML = ["dom.","seg.","ter.","qua.","qui.","sex.","sáb."].map(s => `<span class="dow">${s}</span>`).join("");
+
+  function renderMonth(){
+    const m = fmtMonth.format(view);
+    monthEl.textContent = m.charAt(0).toUpperCase() + m.slice(1);
+    $("prev").disabled = view <= new Date(today.getFullYear(), today.getMonth(), 1);
+    $("next").disabled = new Date(view.getFullYear(), view.getMonth() + 1, 1) > last;
+    const first = view.getDay();
+    const total = new Date(view.getFullYear(), view.getMonth() + 1, 0).getDate();
+    let html = "";
+    for (let i = 0; i < first; i++) html += "<span></span>";
+    for (let n = 1; n <= total; n++){
+      const d = new Date(view.getFullYear(), view.getMonth(), n);
+      const open = slotsFor(d).length > 0;
+      const cls = ["day", open && "open", selDay && key(d) === key(selDay) && "sel", key(d) === key(today) && "today"].filter(Boolean).join(" ");
+      html += `<button type="button" class="${cls}" data-k="${key(d)}" ${open ? "" : "disabled"} aria-label="${fmtDay.format(d)}${open ? "" : ", indisponível"}">${n}</button>`;
+    }
+    daysEl.innerHTML = html;
+  }
+
+  function renderSlots(){
+    listEl.innerHTML = "";
+    nextFreeEl.hidden = true;
+    if (!selDay){
+      titleEl.textContent = "Sem horários livres no momento.";
+      listEl.innerHTML = '<p class="empty">Fale comigo pelo WhatsApp e eu vejo um horário para você.</p>';
+      return;
+    }
+    const s = slotsFor(selDay);
+    titleEl.textContent = "Disponibilidade para " + fmtDay.format(selDay);
+    if (!s.length){
+      listEl.innerHTML = '<p class="empty">Indisponível</p>';
+      nextFreeEl.hidden = false;
+      return;
+    }
+    listEl.innerHTML = s.map(h => `<button type="button" class="slot" aria-pressed="${h === selTime}">${h}</button>`).join("");
+  }
+
+  function renderSummary(){
+    if (selDay && selTime){
+      const when = fmtDay.format(selDay) + ", às " + selTime;
+      sumEl.textContent = when.charAt(0).toUpperCase() + when.slice(1) + " (horário de Brasília)";
+      const msg = `Olá, Renata! Gostaria de agendar a primeira sessão de terapia online em ${when}.`;
+      confirmEl.href = `https://wa.me/${AGENDA.whatsapp}?text=${encodeURIComponent(msg)}`;
+      confirmEl.removeAttribute("aria-disabled");
+    } else {
+      sumEl.textContent = "Escolha um dia e um horário";
+      confirmEl.href = "#";
+      confirmEl.setAttribute("aria-disabled", "true");
+    }
+  }
+
+  function render(){ renderMonth(); renderSlots(); renderSummary(); }
+
+  daysEl.addEventListener("click", e => {
+    const b = e.target.closest(".day.open"); if (!b) return;
+    const [y, m, d] = b.dataset.k.split("-").map(Number);
+    selDay = new Date(y, m - 1, d); selTime = null; render();
+  });
+  listEl.addEventListener("click", e => {
+    const b = e.target.closest(".slot"); if (!b) return;
+    selTime = b.textContent; renderSlots(); renderSummary();
+  });
+  nextFreeEl.addEventListener("click", () => {
+    const d = new Date(selDay); d.setDate(d.getDate() + 1);
+    const f = nextFree(d); if (!f) return;
+    selDay = f; selTime = null; view = new Date(f.getFullYear(), f.getMonth(), 1); render();
+  });
+  $("prev").addEventListener("click", () => { view = new Date(view.getFullYear(), view.getMonth() - 1, 1); renderMonth(); });
+  $("next").addEventListener("click", () => { view = new Date(view.getFullYear(), view.getMonth() + 1, 1); renderMonth(); });
+  render();
+
+  /* pontinhos do carrossel de depoimentos (celular) */
+  const quotes = $("quotes"), dots = $("dots"), cards = [...quotes.children];
+  dots.innerHTML = cards.map((_, i) => `<span class="${i ? "" : "on"}"></span>`).join("");
+  quotes.addEventListener("scroll", () => {
+    const i = Math.round(quotes.scrollLeft / (cards[0].offsetWidth + 12));
+    [...dots.children].forEach((s, j) => s.classList.toggle("on", j === i));
+  }, {passive:true});
+})();
+</script>
 </body>
 </html>
