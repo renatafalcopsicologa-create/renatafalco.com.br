@@ -415,10 +415,10 @@
         </ul>
 
         <ol class="steps" aria-label="Como funciona">
-          <li><div><b>Você escolhe um horário</b><span>Na agenda abaixo, entre os horários livres para primeira sessão.</span></div></li>
+          <li><div><b>Você escolhe um horário</b><span>Na agenda abaixo, entre os horários livres.</span></div></li>
           <li><div><b>Eu confirmo pelo WhatsApp</b><span>Com o link da sessão e os dados do PIX.</span></div></li>
-          <li><div><b>Primeira sessão</b><span>Para entender a sua demanda e combinar como seguimos.</span></div></li>
-          <li><div><b>Sessões semanais ou quinzenais</b><span>Os próximos horários são combinados diretamente entre nós.</span></div></li>
+          <li><div><b>Começamos pela sua demanda</b><span>Para entender o que te traz e combinar como seguimos.</span></div></li>
+          <li><div><b>Sessões semanais ou quinzenais</b><span>A frequência e os horários são combinados entre nós.</span></div></li>
         </ol>
 
         <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg><span>As sessões são por vídeo e seguem o sigilo previsto no Código de Ética Profissional do Psicólogo. Para aproveitar melhor, escolha um lugar reservado, onde você possa falar à vontade.</span></p>
@@ -448,7 +448,7 @@
     <div class="wrap">
       <div class="head">
         <p class="eyebrow label-teal">Agenda online</p>
-        <h2 id="t-agenda">Agende a sua primeira sessão</h2>
+        <h2 id="t-agenda">Agende a sua sessão</h2>
         <p class="muted" style="margin:0">Terapia online, individual, com 1 hora de duração. Pagamento via PIX.</p>
       </div>
 
@@ -470,7 +470,7 @@
           <button class="btn btn-line-teal" id="next-free" type="button" hidden>Próxima disponibilidade</button>
           <details class="summary" open>
             <summary>Detalhes do serviço</summary>
-            <p><b>Primeira sessão de terapia online · 1 hora</b></p>
+            <p><b>Sessão de terapia online · 1 hora</b></p>
             <p id="sum-when" class="muted">Escolha um dia e um horário</p>
             <p class="muted">Renata de Oliveira Falco · CRP 09|7780</p>
             <p class="muted">Pagamento via PIX</p>
@@ -616,7 +616,7 @@
 </footer>
 
 <script>
-/* ===== Agenda da primeira sessão =====
+/* ===== Agenda =====
    Para mudar os horários, edite só este bloco.
    Dias da semana: 0 = domingo, 1 = segunda ... 6 = sábado. */
 const AGENDA = {
@@ -711,7 +711,7 @@ const AGENDA = {
     if (selDay && selTime){
       const when = fmtDay.format(selDay) + ", às " + selTime;
       sumEl.textContent = when.charAt(0).toUpperCase() + when.slice(1) + " (horário de Brasília)";
-      const msg = `Olá, Renata! Gostaria de agendar a primeira sessão de terapia online em ${when}.`;
+      const msg = `Olá, Renata! Gostaria de agendar uma sessão de terapia online em ${when}.`;
       confirmEl.href = `https://wa.me/${AGENDA.whatsapp}?text=${encodeURIComponent(msg)}`;
       confirmEl.removeAttribute("aria-disabled");
     } else {
