@@ -99,9 +99,13 @@
     border-bottom:1px solid var(--line);
   }
   .topbar .wrap{display:flex;align-items:center;gap:20px;height:64px}
-  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+  .brand-elev{display:flex;align-items:center;gap:10px;margin-right:auto;padding-left:16px;border-left:1px solid var(--line);text-decoration:none;color:var(--muted)}
+  .brand-elev img{height:18px;width:auto;mix-blend-mode:multiply}
+  .brand-elev span{font-family:var(--display);font-size:12px;font-weight:500;line-height:1.25;max-width:112px}
   .brand img{height:34px;width:auto;mix-blend-mode:multiply}
-  .brand span{font-family:var(--display);font-weight:500;font-size:16px;letter-spacing:.02em}
+  .brand span{font-family:var(--display);font-weight:500;font-size:16px;letter-spacing:.02em;white-space:nowrap}
+  .nw{white-space:nowrap}
   .nav{display:flex;gap:22px}
   .nav a{font-family:var(--display);font-size:14px;font-weight:500;color:var(--muted);text-decoration:none}
   .nav a:hover{color:var(--ink)}
@@ -321,6 +325,8 @@
   @media (max-width:820px){
     .nav{display:none}
     .brand span{font-size:15px}
+    .brand-elev{padding-left:12px}
+    .brand-elev img{height:15px}
     .hero .wrap,.clinic-grid,.depo,.about,.booking,.foot{grid-template-columns:1fr}
     .hero .wrap{text-align:center}
     .hero .lead{margin-inline:auto}
@@ -351,10 +357,21 @@
     .legal{justify-content:center;text-align:center}
   }
   @media (min-width:821px){.dots{display:none}}
+  @media (max-width:1080px){.brand-elev span{display:none}}
   @media (max-width:520px){
     .products{grid-template-columns:1fr}
     .hero-ctas .btn{width:100%}
     .topbar .btn{padding:8px 14px}
+    .topbar .wrap{gap:12px}
+  }
+  @media (max-width:360px){
+    .topbar .wrap{gap:8px}
+    .brand{gap:7px}
+    .brand img{height:28px}
+    .brand span{font-size:14px}
+    .brand-elev{padding-left:8px}
+    .brand-elev img{height:12px}
+    .topbar .btn{padding:7px 11px;font-size:13px}
   }
 </style>
 </head>
@@ -363,6 +380,7 @@
 <header class="topbar">
   <div class="wrap">
     <a class="brand" href="#inicio"><img src="assets/simbolo-renata-falco.png" alt="" width="34" height="34"><span>Renata Falco</span></a>
+    <a class="brand-elev" href="#empresas" aria-label="Elevare, soluções em gestão de pessoas"><img src="assets/elevare.png" alt="" width="400" height="99"><span>Soluções em gestão de pessoas</span></a>
     <nav class="nav" aria-label="Seções">
       <a href="#psicoterapia">Psicoterapia</a>
       <a href="#empresas">Empresas</a>
@@ -379,7 +397,7 @@
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="eyebrow">Psicóloga · CRP 09|7780 · Terapia online · Gestão de pessoas</p>
+        <p class="eyebrow"><span class="nw">Psicóloga · CRP 09|7780</span> · <span class="nw">Terapia online</span><br><span class="nw">Elevare · Gestão de pessoas</span></p>
         <h1>Renata Falco</h1>
         <p class="lead">Formada em Psicologia pela PUC Goiás há 20 anos, com mais de duas décadas no mundo corporativo, em gestão de pessoas. <strong>Todo trabalho começa por entender a demanda real.</strong></p>
         <div class="hero-ctas">
