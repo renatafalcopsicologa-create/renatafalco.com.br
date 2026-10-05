@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Renata Falco · Psicóloga online, terapia sistêmica e gestão de pessoas</title>
-<meta name="description" content="Psicóloga online (CRP 09|7780), terapia sistêmica para adultos: ansiedade, esgotamento e carreira. Saúde mental e liderança nas empresas com a Elevare.">
+<meta name="description" content="Psicóloga online (CRP 09|7780), terapia sistêmica para adultos: ansiedade, esgotamento, burnout, relações e trabalho. Gestão de pessoas e saúde mental nas empresas com a Elevare.">
 <link rel="canonical" href="https://renatafalco.com.br/">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta name="theme-color" content="#F7F8F7">
+<meta name="theme-color" content="#F6F2EC">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Renata Falco">
 <meta property="og:title" content="Renata Falco · Psicóloga online, terapia sistêmica e gestão de pessoas">
-<meta property="og:description" content="Psicóloga online (CRP 09|7780), terapia sistêmica para adultos: ansiedade, esgotamento e carreira. Saúde mental e liderança nas empresas com a Elevare.">
+<meta property="og:description" content="Você sabe quem você é? Terapia sistêmica online para adultos, com escuta atenta e sem julgamentos.">
 <meta property="og:url" content="https://renatafalco.com.br/">
 <meta property="og:image" content="https://renatafalco.com.br/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
@@ -22,356 +22,328 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+  /* ============================================================
+     v3 · editorial, sóbrio, clássico.
+     A base é neutra (marfim + grafite) para não competir com as
+     duas logos, que são coloridas. As cores das marcas aparecem
+     só como detalhe: petróleo na psicoterapia, marinho na Elevare.
+     ============================================================ */
   :root{
     color-scheme: light;
-    --bg:#F7F8F7;
-    --surface:#FFFFFF;
-    --ink:#2B2F36;
-    --muted:#646A72;
-    --line:#E2E5E4;
-    --coral:#E23E57;
-    --teal:#277A92;
-    --teal-dark:#1E6275;
-    --teal-tint:#E8F2F4;
-    --yellow:#F6C23E;
-    --green:#2E9E47;
-    --navy:#272D74;
-    --navy-dark:#1D2259;
-    --sand:#F4EFEA;
-    --display:"Montserrat","Avenir Next","Segoe UI",system-ui,sans-serif;
-    --body:"Nunito Sans","Avenir","Segoe UI",system-ui,sans-serif;
-    --gutter:clamp(16px,5vw,56px);
+    --paper:#F6F2EC;
+    --paper-2:#EFE9E0;
+    --white:#FCFBF8;
+    --ink:#22252A;
+    --ink-2:#3A3E45;
+    --muted:#6E6A64;
+    --line:#DDD5CA;
+    --dark:#1E2127;
+    --dark-ink:#EDE8E0;
+    --dark-muted:#A9A398;
+    --psi:#1F5F6E;
+    --psi-soft:#E3ECEC;
+    --elev:#272D74;
+    --serif:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
+    --sans:"Inter","Helvetica Neue","Segoe UI",system-ui,sans-serif;
+    --gutter:clamp(16px,5vw,64px);
   }
   *{box-sizing:border-box}
-  html{scroll-behavior:smooth;scroll-padding-top:76px}
+  html{scroll-behavior:smooth;scroll-padding-top:72px}
   body{
-    margin:0;background:var(--bg);color:var(--ink);
-    font-family:var(--body);font-size:17px;line-height:1.65;
-    overflow-x:hidden;
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);font-size:16.5px;line-height:1.7;
+    overflow-x:hidden;-webkit-font-smoothing:antialiased;
+    font-variant-numeric:lining-nums;
   }
   img{max-width:100%;height:auto;display:block}
   [hidden]{display:none!important}
   a{color:inherit}
-  a:focus-visible,button:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:6px}
-  .wrap{max-width:1080px;margin-inline:auto;padding-inline:var(--gutter)}
-  section{padding-block:clamp(56px,8vw,104px)}
-  .eyebrow{
-    font-family:var(--display);font-size:12.5px;font-weight:600;
-    letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 14px;
+  a:focus-visible,button:focus-visible,summary:focus-visible{outline:1.5px solid var(--psi);outline-offset:3px}
+  .wrap{max-width:1160px;margin-inline:auto;padding-inline:var(--gutter)}
+  section{padding-block:clamp(64px,9vw,128px)}
+  .nw{white-space:nowrap}
+
+  .label{
+    font-family:var(--sans);font-size:11.5px;font-weight:500;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--muted);margin:0 0 22px;display:flex;align-items:center;gap:14px;
   }
-  h2{
-    font-family:var(--display);font-weight:400;font-size:clamp(28px,3.6vw,40px);
-    line-height:1.15;letter-spacing:-.01em;margin:0 0 18px;text-wrap:balance;
-  }
-  h3{font-family:var(--display);font-weight:500;font-size:20px;line-height:1.3;margin:0 0 8px}
-  .lead{font-size:clamp(17px,1.6vw,19px);color:var(--ink);max-width:60ch;margin:0 0 16px}
+  .label .n{font-family:var(--serif);font-size:15px;letter-spacing:.04em;text-transform:none;color:var(--ink)}
+  .label::after{content:"";flex:0 0 48px;height:1px;background:currentColor;opacity:.45}
+  h1,h2,h3{font-family:var(--serif);font-weight:300;letter-spacing:-.01em;margin:0;text-wrap:balance}
+  h1{font-size:clamp(56px,9vw,112px);line-height:.95}
+  h2{font-size:clamp(38px,5.2vw,64px);line-height:1.02;margin-bottom:28px}
+  h2 em,h1 em{font-style:italic;font-weight:300}
+  h3{font-size:clamp(24px,2.4vw,30px);line-height:1.15;font-weight:400}
+  p{margin:0 0 18px}
+  .lead{font-family:var(--serif);font-weight:400;font-size:clamp(21px,2vw,25px);line-height:1.45;color:var(--ink-2);max-width:34ch}
   .muted{color:var(--muted)}
 
-  /* marcação de texto pendente: some quando o texto final entrar */
-  mark.todo{
-    background:#FFF3C4;color:inherit;border-bottom:1px dashed #C9A227;
-    padding:0 .2em;border-radius:3px;
-  }
-
-  /* ---------- botões ---------- */
   .btn{
-    display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;
-    font-family:var(--display);font-size:15px;font-weight:500;line-height:1.2;
-    padding:13px 22px;border-radius:999px;border:1px solid currentColor;
-    background:transparent;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s;
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;
+    font-family:var(--sans);font-size:12.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;
+    padding:16px 26px;border:1px solid var(--ink);background:transparent;color:var(--ink);
+    cursor:pointer;transition:background-color .25s,color .25s,border-color .25s;border-radius:0;
   }
-  .btn svg{width:18px;height:18px;flex:none}
-  .btn-teal{background:var(--teal);border-color:var(--teal);color:#fff}
-  .btn-teal:hover{background:var(--teal-dark);border-color:var(--teal-dark)}
-  .btn-navy{background:var(--navy);border-color:var(--navy);color:#fff}
-  .btn-navy:hover{background:var(--navy-dark);border-color:var(--navy-dark)}
-  .btn-line-navy{color:var(--navy)}
-  .btn-line-navy:hover{background:var(--navy);color:#fff}
-  .btn-line-teal{color:var(--teal)}
-  .btn-line-teal:hover{background:var(--teal);color:#fff}
+  .btn svg{width:16px;height:16px;flex:none}
+  .btn-solid{background:var(--ink);color:var(--paper)}
+  .btn-solid:hover{background:var(--psi);border-color:var(--psi)}
+  .btn:not(.btn-solid):not(.btn-elev):hover{background:var(--ink);color:var(--paper)}
+  .btn-light{border-color:var(--dark-ink);color:var(--dark-ink)}
+  .btn-light:hover{background:var(--dark-ink)!important;color:var(--dark)!important}
+  .btn-elev{background:var(--elev);border-color:var(--elev);color:#fff}
+  .btn-elev:hover{background:var(--ink);border-color:var(--ink)}
+  .link-arrow{
+    font-size:12.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;
+    display:inline-flex;gap:10px;align-items:center;border-bottom:1px solid currentColor;padding-bottom:4px;
+  }
 
-  /* ---------- topo fixo ---------- */
+  /* ---------- topo ---------- */
   .topbar{
-    position:sticky;top:0;z-index:20;background:rgba(247,248,247,.92);
-    backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);
-    border-bottom:1px solid var(--line);
+    position:sticky;top:0;z-index:30;background:rgba(246,242,236,.94);
+    backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
   }
-  .topbar .wrap{display:flex;align-items:center;gap:20px;height:64px}
-  .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-  .brand-elev{display:flex;align-items:center;gap:10px;margin-right:auto;padding-left:16px;border-left:1px solid var(--line);text-decoration:none;color:var(--muted)}
-  .brand-elev img{height:18px;width:auto;mix-blend-mode:multiply}
-  .brand-elev span{font-family:var(--display);font-size:12px;font-weight:500;line-height:1.25;max-width:112px}
-  .brand img{height:34px;width:auto;mix-blend-mode:multiply}
-  .brand span{font-family:var(--display);font-weight:500;font-size:16px;letter-spacing:.02em;white-space:nowrap}
-  .nw{white-space:nowrap}
-  .nav{display:flex;gap:22px}
-  .nav a{font-family:var(--display);font-size:14px;font-weight:500;color:var(--muted);text-decoration:none}
+  .topbar .wrap{display:flex;align-items:center;gap:22px;height:66px}
+  .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+  .brand img{height:30px;width:auto;mix-blend-mode:multiply}
+  .brand span{font-family:var(--serif);font-size:22px;font-weight:500;letter-spacing:.01em;white-space:nowrap}
+  .brand-elev{display:flex;align-items:center;margin-right:auto;padding-left:18px;border-left:1px solid var(--line);height:26px}
+  .brand-elev img{height:15px;width:auto;mix-blend-mode:multiply}
+  .nav{display:flex;gap:28px}
+  .nav a{font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);text-decoration:none}
   .nav a:hover{color:var(--ink)}
-  .topbar .btn{padding:9px 18px;font-size:14px}
+  .topbar .btn{padding:11px 18px;font-size:11.5px}
 
   /* ---------- abertura ---------- */
-  .hero{padding-block:clamp(40px,7vw,88px)}
-  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,6vw,80px);align-items:center}
-  h1{
-    font-family:var(--display);font-weight:300;font-size:clamp(42px,6.4vw,68px);
-    line-height:1.04;letter-spacing:-.015em;margin:0 0 24px;
+  .hero{padding-block:clamp(48px,7vw,96px) clamp(56px,8vw,112px)}
+  .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(36px,6vw,96px);align-items:end}
+  .hero h1{margin:6px 0 30px}
+  .hero .lead{margin-bottom:44px}
+  .doors{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink)}
+  .door{display:flex;flex-direction:column;gap:10px;padding:26px 28px 28px 0;text-decoration:none;border-bottom:1px solid var(--line)}
+  .door + .door{padding-left:28px;border-left:1px solid var(--line)}
+  .door .n{font-family:var(--serif);font-size:15px;color:var(--muted)}
+  .door b{font-family:var(--serif);font-weight:400;font-size:clamp(25px,2.4vw,30px);line-height:1.1}
+  .door span{font-size:14.5px;color:var(--muted);line-height:1.55}
+  .door i{font-style:normal;font-size:11.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;margin-top:6px}
+  .door:hover b{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px}
+  .door.psi i{color:var(--psi)}
+  .door.elev i{color:var(--elev)}
+  .portrait{position:relative;margin:0}
+  .portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 22%;filter:saturate(.55) contrast(1.03)}
+  .portrait figcaption{
+    margin-top:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+    font-size:11.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);
   }
-  .hero .lead{font-family:var(--display);font-weight:300;font-size:clamp(19px,2.1vw,23px);line-height:1.5;max-width:34ch}
-  .hero .lead strong{font-weight:500}
-  .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-  /* composição editorial: foto principal + foto menor sobreposta (as duas frentes) */
-  .duo{
-    position:relative;justify-self:center;width:100%;max-width:420px;
-    padding:0 0 64px 56px;isolation:isolate;
-  }
-  .duo::before{ /* moldura deslocada, em teal */
-    content:"";position:absolute;top:-18px;right:-18px;width:78%;height:72%;
-    border:1px solid var(--teal);border-radius:6px;z-index:-1;
-  }
-  .duo::after{ /* bloco de cor da Elevare atrás da foto menor */
-    content:"";position:absolute;left:18px;bottom:20px;width:46%;height:34%;
-    background:var(--navy);opacity:.08;border-radius:6px;z-index:-1;
-  }
-  .duo .main{
-    width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;
-    border-radius:6px;background:#ECEBEA;box-shadow:0 30px 60px -36px rgba(43,47,54,.55);
-  }
-  .duo .inset{
-    position:absolute;left:0;bottom:0;width:44%;aspect-ratio:1;object-fit:cover;
-    border-radius:6px;border:6px solid var(--bg);box-shadow:0 18px 40px -22px rgba(43,47,54,.55);
-  }
-  .credential{
-    position:absolute;right:-12px;bottom:92px;background:var(--surface);
-    border:1px solid var(--line);border-radius:14px;padding:10px 14px;
-    font-family:var(--display);font-size:12.5px;line-height:1.35;
-    box-shadow:0 10px 30px -18px rgba(43,47,54,.45);
-  }
-  .credential b{display:block;font-weight:600;color:var(--teal)}
 
-  /* ---------- psicoterapia ---------- */
-  #psicoterapia{background:var(--surface);border-block:1px solid var(--line)}
-  .clinic-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(32px,6vw,72px);align-items:start}
-  .label-teal{color:var(--teal)}
-  .label-navy{color:var(--navy)}
-  .question{
-    margin:24px 0;padding:18px 22px;border-left:3px solid var(--teal);background:var(--teal-tint);
-    border-radius:0 12px 12px 0;font-family:var(--display);font-weight:300;font-style:italic;
-    font-size:clamp(17px,1.7vw,19px);line-height:1.5;
+  /* ---------- psicoterapia: perguntas ---------- */
+  .ask{background:var(--dark);color:var(--dark-ink)}
+  .ask .label{color:var(--dark-muted)}
+  .ask .label .n{color:var(--dark-ink)}
+  .ask .wrap{display:grid;grid-template-columns:auto 1fr;gap:clamp(24px,6vw,96px)}
+  .ask .side{display:flex;flex-direction:column;justify-content:space-between;gap:28px}
+  .ask .side .sub{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--dark-muted);margin:0;max-width:16ch;line-height:1.35}
+  .questions{list-style:none;margin:0;padding:0}
+  .questions li{
+    font-family:var(--serif);font-weight:300;font-size:clamp(32px,4.6vw,58px);line-height:1.08;
+    padding:20px 0;border-bottom:1px solid rgba(237,232,224,.16);
   }
-  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0;padding:0;list-style:none}
-  .chips li{
-    font-family:var(--display);font-size:13.5px;font-weight:500;
-    padding:7px 14px;border-radius:999px;background:var(--bg);border:1px solid var(--line);
-  }
-  .steps{counter-reset:s;list-style:none;margin:36px 0 0;padding:0;display:grid;gap:18px}
-  .steps li{counter-increment:s;display:grid;grid-template-columns:40px 1fr;gap:14px;align-items:start}
-  .steps li::before{
-    content:counter(s);width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
-    font-family:var(--display);font-weight:500;color:var(--teal);border:1px solid var(--teal);
-  }
-  .steps b{display:block;font-family:var(--display);font-weight:500}
-  .steps span{color:var(--muted);font-size:16px}
+  .questions li:first-child{padding-top:0}
+  .questions li em{font-style:italic}
+  .ask .after{margin-top:40px;max-width:56ch;font-family:var(--serif);font-size:clamp(20px,1.9vw,24px);line-height:1.5}
+  .ask .after strong{font-weight:500}
 
-  /* cartão do serviço (padrão Aurea) */
-  .service{
-    position:sticky;top:88px;border:1px solid var(--line);border-radius:20px;overflow:hidden;
-    background:var(--surface);box-shadow:0 20px 50px -36px rgba(43,47,54,.5);
+  /* ---------- psicoterapia: apresentação ---------- */
+  .intro .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(36px,7vw,112px);align-items:start}
+  .intro .body p{color:var(--ink-2)}
+  .pull{
+    margin:36px 0 0;padding:30px 0 0;border-top:1px solid var(--ink);
+    font-family:var(--serif);font-style:italic;font-weight:300;font-size:clamp(26px,2.8vw,36px);line-height:1.22;color:var(--ink)!important;
   }
-  .service-head{
-    background:linear-gradient(135deg,#DDEFF2 0%,#EEF6EE 60%,#FBEFD6 100%);
-    padding:28px 26px 24px;display:flex;flex-direction:column;gap:14px;
-  }
-  .service-head img{height:44px;width:auto;mix-blend-mode:multiply;align-self:flex-start}
-  .service-head p{margin:0;font-family:var(--display);font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}
-  .service-head h3{font-size:24px;margin:0}
-  .service dl{margin:0;padding:8px 26px}
-  .service dl div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15.5px}
-  .service dl div:last-child{border-bottom:0}
-  .service dt{color:var(--muted)}
-  .service dd{margin:0;font-weight:600;text-align:right}
-  .service .btn{margin:6px 26px 26px;width:calc(100% - 52px)}
-  .privacy{font-size:15px;color:var(--muted);margin-top:28px;display:flex;gap:12px;align-items:flex-start}
-  .privacy svg{flex:none;width:20px;height:20px;margin-top:3px;color:var(--teal)}
+  .meta{margin:40px 0 0;border-top:1px solid var(--line)}
+  .meta div{display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+  .meta dt{color:var(--muted)}
+  .meta dd{margin:0;font-weight:500;text-align:right}
+
+  /* ---------- psicoterapia: o processo ---------- */
+  .process{background:var(--white);border-block:1px solid var(--line)}
+  .process-head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,6vw,96px);align-items:end;margin-bottom:56px}
+  .process-head p{margin:0;color:var(--muted);max-width:44ch}
+  .acc{border-top:1px solid var(--ink)}
+  .acc details{border-bottom:1px solid var(--line)}
+  .acc summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:72px 1fr 40px;align-items:center;gap:16px;padding:26px 0}
+  .acc summary::-webkit-details-marker{display:none}
+  .acc .n{font-family:var(--serif);font-size:20px;color:var(--muted)}
+  .acc summary b{font-family:var(--serif);font-weight:400;font-size:clamp(26px,2.9vw,38px);line-height:1.1;transition:color .2s}
+  .acc summary small{display:block;font-family:var(--sans);font-size:13.5px;color:var(--muted);margin-top:6px;font-weight:400}
+  .acc .ic{width:40px;height:40px;border:1px solid var(--line);display:grid;place-items:center;transition:background-color .25s}
+  .acc .ic::before,.acc .ic::after{content:"";grid-area:1/1;width:12px;height:1px;background:var(--ink)}
+  .acc .ic::after{transform:rotate(90deg);transition:transform .3s}
+  .acc details[open] .ic::after{transform:rotate(0)}
+  .acc details[open] .ic{background:var(--paper)}
+  .acc summary:hover b{color:var(--psi)}
+  .acc .panel{display:grid;grid-template-columns:72px 1fr 1fr;gap:16px clamp(24px,5vw,72px);padding:0 0 40px}
+  .acc .panel > :first-child{grid-column:2}
+  .acc .panel p{color:var(--ink-2)}
+  .acc .panel .big{font-family:var(--serif);font-size:clamp(22px,2.1vw,27px);line-height:1.4;color:var(--ink);font-weight:400}
+  .shift{display:grid;gap:14px;align-content:start}
+  .shift p{margin:0}
+  .shift .from,.shift .to{padding:18px 20px;font-family:var(--serif);font-size:21px;line-height:1.35}
+  .shift .from{border:1px solid var(--line);color:var(--muted)!important;text-decoration:line-through;text-decoration-thickness:1px}
+  .shift .to{background:var(--psi-soft);border-left:2px solid var(--psi);font-style:italic;color:var(--ink)!important}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:6px 0 22px;padding:0}
+  .tags li{font-size:13px;letter-spacing:.02em;padding:7px 14px;border:1px solid var(--line);background:var(--paper)}
+  .steps{list-style:none;margin:0;padding:0;counter-reset:s;border-top:1px solid var(--line)}
+  .steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--serif);font-size:19px;color:var(--psi)}
+  .steps b{display:block;font-weight:500;font-size:15.5px}
+  .steps span{color:var(--muted);font-size:14.5px}
+  .privacy{display:flex;gap:12px;font-size:14.5px;color:var(--muted)!important;margin-top:4px}
+  .privacy svg{flex:none;width:18px;height:18px;margin-top:3px;color:var(--psi)}
+  .share{margin:36px 0 0;font-size:13.5px;color:var(--muted)}
 
   /* ---------- agenda ---------- */
-  #agendar{background:var(--teal-tint)}
-  #agendar .head{text-align:center;max-width:620px;margin:0 auto 36px}
-  .booking{
-    max-width:920px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:20px;
-    display:grid;grid-template-columns:1.1fr .9fr;overflow:hidden;
-  }
-  .cal{padding:26px clamp(18px,3vw,32px);border-right:1px solid var(--line)}
-  .tz{font-size:13.5px;color:var(--muted);font-style:italic;margin:0 0 16px;text-align:center}
-  .cal-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
-  .cal-nav strong{font-family:var(--display);font-weight:500}
-  .icon-btn{
-    width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);
-    display:grid;place-items:center;cursor:pointer;color:var(--ink);
-  }
-  .icon-btn:disabled{opacity:.35;cursor:default}
-  .icon-btn svg{width:16px;height:16px}
+  .book-head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,6vw,96px);align-items:end;margin-bottom:48px}
+  .book-head p{margin:0;color:var(--muted)}
+  .booking{display:grid;grid-template-columns:1.05fr .95fr;border:1px solid var(--ink);background:var(--white)}
+  .cal{padding:30px clamp(18px,3vw,36px);border-right:1px solid var(--line)}
+  .tz{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 18px}
+  .cal-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+  .cal-nav strong{font-family:var(--serif);font-weight:400;font-size:24px}
+  .icon-btn{width:38px;height:38px;border:1px solid var(--line);background:transparent;display:grid;place-items:center;cursor:pointer;color:var(--ink)}
+  .icon-btn:disabled{opacity:.3;cursor:default}
+  .icon-btn svg{width:15px;height:15px}
   .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
-  .dow{font-family:var(--display);font-size:12px;color:var(--muted);padding:6px 0}
-  .day{
-    aspect-ratio:1;max-width:46px;width:100%;margin:auto;border-radius:50%;border:0;background:none;
-    font-family:var(--display);font-size:14.5px;color:#B5BABF;cursor:default;position:relative;
-  }
+  .dow{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:6px 0}
+  .day{aspect-ratio:1;max-width:46px;width:100%;margin:auto;border:0;background:none;font-family:var(--sans);font-size:14px;color:#BDB6AC;cursor:default;position:relative}
   .day.open{color:var(--ink);font-weight:600;cursor:pointer}
-  .day.open::after{content:"";position:absolute;left:50%;bottom:5px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--teal)}
-  .day.open:hover{background:var(--teal-tint)}
-  .day.sel{background:var(--teal);color:#fff}
-  .day.sel::after{background:#fff}
+  .day.open::after{content:"";position:absolute;left:50%;bottom:5px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--psi)}
+  .day.open:hover{background:var(--psi-soft)}
+  .day.sel{background:var(--ink);color:var(--paper)}
+  .day.sel::after{background:var(--paper)}
   .day.today{box-shadow:inset 0 0 0 1px var(--line)}
-  .slots{padding:26px clamp(18px,3vw,32px);display:flex;flex-direction:column;gap:16px}
-  .slots-title{font-family:var(--display);font-weight:500;margin:0}
+  .slots{padding:30px clamp(18px,3vw,36px);display:flex;flex-direction:column;gap:16px}
+  .slots-title{font-family:var(--serif);font-size:23px;margin:0;line-height:1.25}
   .slot-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px}
-  .slot{
-    font-family:var(--display);font-size:15px;font-weight:500;padding:11px 0;border-radius:999px;
-    border:1px solid var(--teal);background:var(--surface);color:var(--teal);cursor:pointer;
-  }
-  .slot:hover{background:var(--teal-tint)}
-  .slot[aria-pressed="true"]{background:var(--teal);color:#fff}
+  .slot{font-family:var(--sans);font-size:14.5px;font-weight:500;padding:12px 0;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+  .slot:hover{background:var(--psi-soft)}
+  .slot[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
   .empty{color:var(--muted);margin:0}
-  details.summary{border:1px solid var(--line);border-radius:14px;padding:4px 16px;font-size:15px}
-  details.summary summary{cursor:pointer;padding:10px 0;font-family:var(--display);font-weight:500;list-style:none;display:flex;justify-content:space-between}
-  details.summary summary::after{content:"+";color:var(--muted)}
-  details.summary[open] summary::after{content:"−"}
-  details.summary p{margin:0 0 4px}
-  details.summary p:last-child{margin-bottom:12px}
+  .summary-box{border-top:1px solid var(--line);padding-top:14px;font-size:14.5px}
+  .summary-box p{margin:0 0 4px}
   .slots .btn{width:100%}
-  .slots .btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
-  .fineprint{font-size:13.5px;color:var(--muted);margin:0}
+  .slots .btn[aria-disabled="true"]{opacity:.4;pointer-events:none}
+  .fineprint{font-size:13px;color:var(--muted);margin:0}
 
-  /* ---------- empresas (Elevare) ---------- */
-  .elev-top{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-bottom:36px}
-  .elev-top img{height:38px;width:auto;mix-blend-mode:multiply}
-  .products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-  .product{
-    background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px 22px;
-    display:flex;flex-direction:column;gap:8px;
-  }
-  .product .n{font-family:var(--display);font-size:13px;font-weight:600;color:var(--navy);letter-spacing:.08em}
-  .product p{margin:0;color:var(--muted);font-size:15.5px}
-  .sectors{margin-top:36px;display:grid;grid-template-columns:auto 1fr;gap:16px 28px;align-items:start}
-  .sectors .eyebrow{margin:6px 0 0}
-  .sectors + .sectors{margin-top:24px}
-  .cred{list-style:none;margin:0;padding:0;display:grid;gap:8px;color:var(--muted);font-size:15.5px}
-  .elev-cta{margin-top:40px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  /* ---------- convite ---------- */
+  .invite{background:var(--paper-2);text-align:center}
+  .invite .big{font-family:var(--serif);font-weight:300;font-size:clamp(30px,4vw,50px);line-height:1.12;max-width:22ch;margin:0 auto 22px}
+  .invite .big em{font-style:italic}
+
+  /* ---------- Elevare ---------- */
+  .elev-rows{margin-top:48px;border-top:1px solid var(--line)}
+  .elev-rows > div{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .elev-rows .label{margin:4px 0 0}
+  .elev-rows .label::after{display:none}
+  .elev-rows ul{list-style:none;margin:0;padding:0;color:var(--ink-2);font-size:15px}
+  .elev-rows ul.inline{display:flex;flex-wrap:wrap;gap:6px 0}
+  .elev-rows ul.inline li:not(:last-child)::after{content:"·";margin:0 12px;color:#B9AFA2}
+
+
+  /* ---------- Elevare: mesma gramática, marinho no lugar do grafite ---------- */
+  .ask-elev{background:#1B1F45}
+  .ask-elev .questions li{border-color:rgba(237,232,224,.14)}
+  .intro-elev{background:var(--white);border-top:1px solid var(--line)}
+  .elev-photo{position:relative;margin:0 0 44px}
+  .elev-photo img:first-child{width:100%;aspect-ratio:16/11;object-fit:cover;object-position:50% 30%;filter:saturate(.55) contrast(1.03)}
+  .elev-photo .elev-logo{position:absolute;right:0;bottom:-22px;width:auto;height:22px;background:var(--white);padding:12px 18px;box-sizing:content-box}
+  .process-elev{background:var(--paper);border-top:0}
+  .acc-elev summary:hover b{color:var(--elev)}
+  .acc-elev .steps li::before{color:var(--elev)}
+  .acc-elev .privacy svg{color:var(--elev)}
+  .process-elev .elev-rows{margin-top:64px}
+  .invite-elev{background:var(--white);border-top:1px solid var(--line)}
+  .invite-ctas{display:flex;flex-wrap:wrap;gap:22px;justify-content:center;align-items:center}
+  @media (max-width:600px){.elev-photo .elev-logo{height:16px;padding:10px 14px}}
 
   /* ---------- depoimentos ---------- */
-  #depoimentos{background:var(--sand)}
-  .depo{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,72px);align-items:start}
-  .depo > *{min-width:0}
-  .depo-side{position:sticky;top:96px}
-  .depo-side img{
-    width:100%;max-width:340px;aspect-ratio:4/5;object-fit:cover;object-position:72% 30%;
-    border-radius:6px;margin-top:28px;box-shadow:14px 14px 0 #E9DED3;
-  }
-  .quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .q{
-    margin:0;background:var(--surface);border-radius:18px;padding:26px 24px 22px;
-    display:flex;flex-direction:column;gap:12px;border:1px solid #EAE2DA;
-  }
-  .q.wide{grid-column:1/-1}
-  .q::before{
-    content:"\201C";font-family:Georgia,"Times New Roman",serif;font-size:56px;line-height:.6;
-    color:var(--coral);opacity:.75;height:24px;
-  }
-  .q blockquote{margin:0;font-family:var(--display);font-weight:300;font-size:17.5px;line-height:1.55}
+  .depo-head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,6vw,96px);align-items:end;margin-bottom:48px}
+  .depo-head p{margin:0;color:var(--muted)}
+  .quotes{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
+  .q{margin:0;padding:30px 28px 30px 0;display:flex;flex-direction:column;gap:18px;border-bottom:1px solid var(--line)}
+  .q:not(:nth-child(3n+1)){padding-left:28px;border-left:1px solid var(--line)}
+  .q blockquote{margin:0;font-family:var(--serif);font-size:21px;line-height:1.42;font-weight:400}
   .q blockquote strong{font-weight:500}
-  .q.wide blockquote{font-size:clamp(18px,1.9vw,21px)}
-  .q figcaption{margin-top:auto;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px}
-  .q figcaption::before{content:"";width:22px;height:1px;background:#CDBFB2}
-  .depo-note{font-size:13.5px;color:var(--muted);margin:20px 0 0}
+  .q.close{grid-column:1/-1;padding-left:0!important;border-left:0!important;display:grid;grid-template-columns:1fr;max-width:none}
+  .q.close blockquote{font-size:clamp(23px,2.3vw,29px);max-width:52ch}
+  .q figcaption{margin-top:auto;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
 
   /* ---------- sobre ---------- */
-  .about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(32px,6vw,72px);align-items:center}
-  .about img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px}
-  .about ul{margin:16px 0 0;padding-left:20px}
-  .about li{margin-bottom:6px}
-  .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,4vw,40px);margin-top:56px}
-  .fact{border-top:1px solid var(--line);padding-top:18px}
-  .fact b{display:block;font-family:var(--display);font-weight:300;font-size:clamp(30px,3.4vw,40px);line-height:1.1;margin-bottom:6px}
-  .fact:nth-child(1) b{color:var(--navy)}
-  .fact:nth-child(2) b{color:var(--teal)}
-  .fact:nth-child(3) b{color:var(--coral)}
-  .fact span{color:var(--muted);font-size:15px}
+  #sobre{background:var(--white);border-top:1px solid var(--line)}
+  .about{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(36px,7vw,112px);align-items:start}
+  .about img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.55) contrast(1.03)}
+  .about .body p{color:var(--ink-2)}
+  .about ul{list-style:none;margin:28px 0 0;padding:0;border-top:1px solid var(--line)}
+  .about li{padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:72px;border-top:1px solid var(--ink)}
+  .fact{padding:26px 24px 0 0}
+  .fact + .fact{padding-left:24px;border-left:1px solid var(--line)}
+  .fact b{display:block;font-family:var(--serif);font-weight:300;font-size:clamp(44px,5vw,64px);line-height:1;margin-bottom:12px}
+  .fact span{color:var(--muted);font-size:14.5px}
 
   /* ---------- rodapé ---------- */
-  footer{background:var(--navy);color:#E6E8F5;padding-block:clamp(48px,7vw,80px) 32px}
+  footer{background:var(--dark);color:var(--dark-ink);padding-block:clamp(64px,8vw,104px) 32px}
   footer a{text-decoration:none}
-  .foot{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:36px}
-  .foot h2{color:#fff;font-size:clamp(24px,2.8vw,30px)}
-  .foot p{margin:0 0 18px;color:#C9CCE6}
-  .foot .eyebrow{color:#A9AED8}
-  .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-  .foot li a{display:inline-flex;align-items:center;gap:10px;color:#fff}
-  .foot li a:hover{text-decoration:underline}
-  .foot svg{width:18px;height:18px;flex:none}
-  .btn-white{background:#fff;border-color:#fff;color:var(--navy)}
-  .btn-white:hover{background:transparent;color:#fff}
-  .legal{
-    margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.16);
-    display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;font-size:13.5px;color:#A9AED8;
-  }
-  .legal mark.todo{color:var(--ink)}
+  .foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+  .foot h2{font-size:clamp(34px,4vw,48px);margin-bottom:18px}
+  .foot p{color:var(--dark-muted)}
+  .foot .label{color:var(--dark-muted)}
+  .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+  .foot li a{display:inline-flex;align-items:center;gap:10px;font-size:15px}
+  .foot li a:hover{text-decoration:underline;text-underline-offset:4px}
+  .foot svg{width:17px;height:17px;flex:none;opacity:.8}
+  .legal{margin-top:64px;padding-top:22px;border-top:1px solid rgba(237,232,224,.16);display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;font-size:12.5px;letter-spacing:.06em;color:var(--dark-muted)}
 
-  /* ---------- celular ---------- */
-  @media (max-width:900px){
-    .products{grid-template-columns:1fr 1fr}
+  /* ---------- telas menores ---------- */
+  @media (max-width:980px){
+    .quotes{grid-template-columns:1fr 1fr}
+    .q:not(:nth-child(3n+1)){padding-left:0;border-left:0}
+    .q:nth-child(even){padding-left:28px;border-left:1px solid var(--line)}
   }
   @media (max-width:820px){
     .nav{display:none}
-    .brand span{font-size:15px}
-    .brand-elev{padding-left:12px}
-    .brand-elev img{height:15px}
-    .hero .wrap,.clinic-grid,.depo,.about,.booking,.foot{grid-template-columns:1fr}
-    .hero .wrap{text-align:center}
-    .hero .lead{margin-inline:auto}
-    .hero-ctas{justify-content:center}
-    .duo{order:-1;max-width:330px;padding:0 0 48px 40px;margin-right:18px}
-    .duo::before{top:-12px;right:-12px}
-    .credential{right:-8px;bottom:64px;text-align:left}
-    .service,.depo-side{position:static}
+    .hero .wrap,.ask .wrap,.intro .wrap,.process-head,.book-head,.booking,.depo-head,.about,.foot{grid-template-columns:1fr}
+    .portrait{order:-1;max-width:360px}
+    .ask .side{flex-direction:row;align-items:center}
+    .ask .side .sub{max-width:none}
+    .acc summary{grid-template-columns:40px 1fr 36px;gap:12px}
+    .acc .ic{width:36px;height:36px}
+    .acc .panel{grid-template-columns:1fr;padding:0 0 32px}
+    .acc .panel > :first-child{grid-column:auto}
     .cal{border-right:0;border-bottom:1px solid var(--line)}
-    .elev-top{grid-template-columns:1fr}
-    .elev-top img{order:-1}
-    .sectors{grid-template-columns:1fr}
-    .depo-side{text-align:center}
-    .depo-side img{max-width:240px;margin-inline:auto}
-    /* depoimentos: carrossel de arrastar no celular */
-    .quotes{
-      display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;
-      margin-inline:calc(-1 * var(--gutter));padding:4px var(--gutter) 12px;
-      scrollbar-width:none;
-    }
-    .quotes::-webkit-scrollbar{display:none}
-    .q,.q.wide{flex:0 0 84%;scroll-snap-align:center}
-    .dots{display:flex;justify-content:center;gap:8px;margin-top:8px}
-    .dots span{width:7px;height:7px;border-radius:50%;background:#D8CCC0;transition:background .2s,width .2s}
-    .dots span.on{background:var(--coral);width:20px;border-radius:4px}
-    .about img{max-width:380px;margin-inline:auto}
-    .facts{grid-template-columns:1fr;margin-top:40px}
-    .legal{justify-content:center;text-align:center}
+    .elev-rows > div{grid-template-columns:1fr;gap:8px}
+    .about img{max-width:380px}
+    .facts{grid-template-columns:1fr}
+    .fact,.fact + .fact{padding:22px 0;border-left:0;border-bottom:1px solid var(--line)}
   }
-  @media (min-width:821px){.dots{display:none}}
-  @media (max-width:1080px){.brand-elev span{display:none}}
-  @media (max-width:520px){
-    .products{grid-template-columns:1fr}
-    .hero-ctas .btn{width:100%}
-    .topbar .btn{padding:8px 14px}
-    .topbar .wrap{gap:12px}
-  }
-  @media (max-width:360px){
-    .topbar .wrap{gap:8px}
-    .brand{gap:7px}
-    .brand img{height:28px}
-    .brand span{font-size:14px}
-    .brand-elev{padding-left:8px}
+  @media (max-width:600px){
+    .doors{grid-template-columns:1fr}
+    .door + .door{padding-left:0;border-left:0}
+    .quotes{grid-template-columns:1fr}
+    .q,.q:nth-child(even),.q:not(:nth-child(3n+1)){padding-left:0;border-left:0}
+    .brand-elev{padding-left:12px}
     .brand-elev img{height:12px}
-    .topbar .btn{padding:7px 11px;font-size:13px}
+    .brand span{font-size:20px}
+    .topbar .wrap{gap:12px}
+    .topbar .btn{padding:9px 13px;letter-spacing:.12em}
+    .hero .btn{width:100%}
+  }
+  @media (max-width:370px){
+    .brand img{height:26px}
+    .brand span{font-size:18px}
+    .brand-elev{display:none}
+    .topbar .btn{margin-left:auto}
   }
 </style>
 </head>
@@ -380,105 +352,198 @@
 <header class="topbar">
   <div class="wrap">
     <a class="brand" href="#inicio"><img src="assets/simbolo-renata-falco.png" alt="" width="34" height="34"><span>Renata Falco</span></a>
-    <a class="brand-elev" href="#empresas" aria-label="Elevare, soluções em gestão de pessoas"><img src="assets/elevare.png" alt="" width="400" height="99"><span>Soluções em gestão de pessoas</span></a>
+    <a class="brand-elev" href="#empresas" aria-label="Elevare, soluções em gestão de pessoas"><img src="assets/elevare.png" alt="" width="400" height="99"></a>
     <nav class="nav" aria-label="Seções">
       <a href="#psicoterapia">Psicoterapia</a>
-      <a href="#empresas">Empresas</a>
-      <a href="#depoimentos">Depoimentos</a>
+      <a href="#empresas">Gestão de pessoas</a>
       <a href="#sobre">Sobre</a>
     </nav>
-    <a class="btn btn-teal" href="#agendar">Agendar</a>
+    <a class="btn btn-solid" href="#agendar">Agendar</a>
   </div>
 </header>
 
 <main id="inicio">
 
-  <!-- ===== Abertura ===== -->
+  <!-- ===== Abertura: duas portas ===== -->
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="eyebrow"><span class="nw">Psicóloga · CRP 09|7780</span> · <span class="nw">Terapia online</span><br><span class="nw">Elevare · Gestão de pessoas</span></p>
-        <h1>Renata Falco</h1>
-        <p class="lead">Formada em Psicologia pela PUC Goiás há 20 anos, com mais de duas décadas no mundo corporativo, em gestão de pessoas. <strong>Todo trabalho começa por entender a demanda real.</strong></p>
-        <div class="hero-ctas">
-          <a class="btn btn-teal" href="#psicoterapia">Terapia online</a>
-          <a class="btn btn-line-navy" href="#empresas">Soluções para empresas</a>
+        <p class="label">Renata de Oliveira Falco</p>
+        <h1>Renata <em>Falco</em></h1>
+        <p class="lead">Psicóloga e profissional de gestão de pessoas. Duas frentes de trabalho com o mesmo ponto de partida: <em>escutar antes de propor.</em></p>
+        <div class="doors">
+          <a class="door psi" href="#psicoterapia">
+            <span class="n">01.</span>
+            <b>Psicoterapia</b>
+            <span>Terapia sistêmica online, individual, para adultos.</span>
+            <i>Conhecer o processo</i>
+          </a>
+          <a class="door elev" href="#empresas">
+            <span class="n">02.</span>
+            <b>Gestão de pessoas</b>
+            <span>Elevare: diagnóstico, mentoria e desenvolvimento de lideranças.</span>
+            <i>Conhecer as soluções</i>
+          </a>
         </div>
       </div>
-      <div class="duo">
-        <img class="main" src="assets/renata-abertura.jpg" alt="Renata Falco sorrindo, de camisa branca e óculos" width="880" height="1100">
-        <img class="inset" src="assets/renata-empresas.jpg" alt="Renata Falco sentada em uma poltrona, com a mão no queixo, diante de um painel de madeira" width="520" height="520">
-        <p class="credential"><b>Terapia sistêmica</b>Online, para adultos</p>
+      <figure class="portrait">
+        <img src="assets/renata-abertura-v3.jpg" alt="Renata Falco sorrindo, sentada num banco de madeira, de camisa branca e calça jeans" width="880" height="1100">
+        <figcaption><span>Psicóloga · CRP 09|7780</span><span>Atendimento online</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== Psicoterapia · perguntas ===== -->
+  <section class="ask" id="psicoterapia" aria-labelledby="t-psi">
+    <div class="wrap">
+      <div class="side">
+        <p class="label" id="t-psi"><span class="n">01.</span>Psicoterapia</p>
+        <p class="sub">Terapia sistêmica, online, para adultos</p>
+      </div>
+      <div>
+        <ul class="questions">
+          <li>Você sabe <em>quem você é?</em></li>
+          <li>Sabe o que te incomoda, o que te faz bem, o que te deixa feliz?</li>
+          <li>Se alguém te perguntasse hoje, <em>você saberia responder?</em></li>
+        </ul>
+        <p class="after">Essas perguntas parecem simples, mas muitas vezes passamos a vida sem parar para olhar para elas. <strong>A psicoterapia é esse espaço de parar, olhar e se reconhecer.</strong></p>
       </div>
     </div>
   </section>
 
-  <!-- ===== Psicoterapia ===== -->
-  <section id="psicoterapia" aria-labelledby="t-psi">
-    <div class="wrap clinic-grid">
+  <!-- ===== Psicoterapia · apresentação ===== -->
+  <section class="intro" aria-labelledby="t-intro">
+    <div class="wrap">
       <div>
-        <p class="eyebrow label-teal">Psicologia clínica · Terapia online</p>
-        <h2 id="t-psi">Terapia online com abordagem sistêmica</h2>
-        <p class="lead">Na terapia sistêmica, eu olho para você dentro das relações em que você vive e trabalha: a família de onde veio, os relacionamentos, a casa, a equipe, a empresa. A ansiedade de domingo à noite, o cansaço que não passa, a sensação de segurar tudo ganham outra leitura quando vistos dentro dessas relações.</p>
-        <p class="question">Em psicoterapia, a pergunta deixa de ser só “o que há de errado comigo?” e passa a ser “que lugar eu ocupo nessas relações, e que padrão estou repetindo sem perceber?”</p>
-        <p class="muted" style="margin:0">Quando esse padrão fica visível, dá para escolher outro movimento.</p>
+        <p class="label">Terapia sistêmica · Online</p>
+        <h2 id="t-intro">Um espaço de escuta e <em>cuidado</em></h2>
+        <p class="lead">Para você se conhecer melhor e compreender as relações que fazem parte da sua vida: família, relacionamentos, trabalho, e tudo aquilo que compõe o dia a dia.</p>
+        <dl class="meta">
+          <div><dt>Abordagem</dt><dd>Terapia sistêmica</dd></div>
+          <div><dt>Formato</dt><dd>Online, por vídeo</dd></div>
+          <div><dt>Para</dt><dd>Adultos, a partir de 18 anos</dd></div>
+          <div><dt>Registro</dt><dd>CRP 09|7780</dd></div>
+        </dl>
+      </div>
+      <div class="body">
+        <p>São mais de 20 anos de atuação direta em gestão de pessoas, a maior parte em cargos de alta liderança, ao lado de diretorias e executivos, em empresas familiares e multinacionais, grandes e pequenas. Ali aprendi a enxergar o que não aparece no organograma: pessoas competentes respirando fundo no carro antes de entrar, líderes cansados de sustentar tudo sozinhos, equipes inteiras sofrendo com padrões que ninguém conseguia nomear.</p>
+        <p>Foi nesse lugar que compreendi algo que levo para a clínica há mais de 10 anos.</p>
+        <p class="pull">A dor quase nunca é de uma pessoa só. Ela nasce nas relações, e é também nas relações que encontra caminho.</p>
+        <p style="margin-top:28px">Por isso, quando você chega, meu primeiro passo é a escuta genuína, para entender por onde você deseja começar. O convite é olhar para onde você está, com quem caminha e o que tem carregado até aqui.</p>
+      </div>
+    </div>
+  </section>
 
-        <p class="eyebrow" style="margin-top:36px">Temas que chegam às sessões</p>
-        <ul class="chips">
-          <li>Ansiedade</li>
-          <li>Esgotamento e burnout</li>
-          <li>Sobrecarga emocional</li>
-          <li>Relacionamentos e família</li>
-          <li>Conflitos com a liderança</li>
-          <li>Autoconhecimento</li>
-          <li>Carreira com mais sentido</li>
-        </ul>
-
-        <ol class="steps" aria-label="Como funciona">
-          <li><div><b>Você escolhe um horário</b><span>Na agenda abaixo, entre os horários livres.</span></div></li>
-          <li><div><b>Eu confirmo pelo WhatsApp</b><span>Com o link da sessão e os dados do PIX.</span></div></li>
-          <li><div><b>Começamos pela sua demanda</b><span>Para entender o que te traz e combinar como seguimos.</span></div></li>
-          <li><div><b>Sessões semanais ou quinzenais</b><span>A frequência e os horários são combinados entre nós.</span></div></li>
-        </ol>
-
-        <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg><span>As sessões são por vídeo e seguem o sigilo previsto no Código de Ética Profissional do Psicólogo. Para aproveitar melhor, escolha um lugar reservado, onde você possa falar à vontade.</span></p>
+  <!-- ===== Psicoterapia · o processo ===== -->
+  <section class="process" aria-labelledby="t-proc">
+    <div class="wrap">
+      <div class="process-head">
+        <div>
+          <p class="label">Como funciona</p>
+          <h2 id="t-proc" style="margin:0">Conheça o <em>processo</em></h2>
+        </div>
+        <p>Seis pontos para você entender, com calma, como é fazer terapia comigo. Toque em cada um para ler.</p>
       </div>
 
-      <aside class="service" aria-label="Serviço">
-        <div class="service-head">
-          <img src="assets/simbolo-renata-falco.png" alt="">
-          <p>Psicoterapia</p>
-          <h3>Agende sua sessão</h3>
-        </div>
-        <dl>
-          <div><dt>Formato</dt><dd>Online, por vídeo</dd></div>
-          <div><dt>Atendimento</dt><dd>Individual, para adultos</dd></div>
-          <div><dt>Idade</dt><dd>A partir de 18 anos</dd></div>
-          <div><dt>Duração</dt><dd>1 hora</dd></div>
-          <div><dt>Frequência</dt><dd>Semanal ou quinzenal</dd></div>
-          <div><dt>Pagamento</dt><dd>Via PIX</dd></div>
-        </dl>
-        <a class="btn btn-teal" href="#agendar">Agendar</a>
-      </aside>
+      <div class="acc">
+        <details id="sinais" open>
+          <summary><span class="n">01</span><span><b>Os sinais</b><small>Quando o cansaço pede atenção</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">A sensação de estar cansado, de ter feito muito e ainda assim produzido pouco. De não conseguir encontrar saída, não conseguir relaxar, descansar, e ainda se sentir culpado por isso.</p>
+            <div>
+              <p>A ansiedade de domingo à noite. O cansaço que nem as férias resolvem.</p>
+              <p>Muitas vezes, esses sinais estão pedindo que você olhe com mais atenção para a sua própria vida.</p>
+            </div>
+          </div>
+        </details>
+
+        <details id="abordagem">
+          <summary><span class="n">02</span><span><b>Uma outra pergunta</b><small>O olhar da terapia sistêmica</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <div class="shift" aria-label="A pergunta muda">
+              <p class="from">O que há de errado comigo?</p>
+              <p class="to">Que lugar eu ocupo nas minhas relações, e que padrões repito sem perceber?</p>
+            </div>
+            <div>
+              <p>Na psicoterapia, a pergunta ganha outro tom, feita com curiosidade e cuidado.</p>
+              <p>Quando você enxerga um padrão, ele deixa de conduzir a sua vida em silêncio, e a escolha volta para as suas mãos. E quando você muda o seu lugar, as relações ao seu redor também encontram um novo jeito de se organizar.</p>
+              <p><b>Autorresponsabilidade, aqui, não é culpa.</b> É reconhecer, com gentileza, o que é seu: o que você sente, o que escolhe e o que deseja mudar.</p>
+            </div>
+          </div>
+        </details>
+
+        <details id="autonomia">
+          <summary><span class="n">03</span><span><b>Autonomia, não dependência</b><small>O que se constrói é para a vida</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Psicoterapia é um lugar de apoio, não de dependência.</p>
+            <div>
+              <p>Ao longo do processo, eu vou te direcionando para potencializar o despertar de consciência: que você se conheça, se reconheça e entenda o seu modelo mental e os seus padrões, fortalecendo a confiança na sua capacidade de escolher.</p>
+              <p>O que construímos juntos é para você levar para a vida, não para ficar só na sessão.</p>
+            </div>
+          </div>
+        </details>
+
+        <details id="atendimento">
+          <summary><span class="n">04</span><span><b>Como é o atendimento</b><small>Ritmo, frequência e sigilo</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Escuta atenta, genuína e sem julgamentos. Um espaço para você chegar como está, com a sua história respeitada, e encontrar acolhimento e honestidade na mesma conversa.</p>
+            <div>
+              <p>O processo respeita o seu ritmo, a sua história e o seu momento. As sessões são online, com 1 hora de duração, e podem ser semanais, quinzenais ou, quando o momento pede mais cuidado, duas vezes por semana. Essa frequência a gente decide junto.</p>
+              <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg><span>As sessões seguem o sigilo previsto no Código de Ética Profissional do Psicólogo. Escolha um lugar reservado, onde você possa falar à vontade.</span></p>
+            </div>
+          </div>
+        </details>
+
+        <details id="para-quem">
+          <summary><span class="n">05</span><span><b>Para quem é</b><small>E as demandas que acompanho</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Para quem sente esgotamento e sobrecarga, tem dificuldade de colocar limites, percebe padrões que se repetem na família, nos relacionamentos e no trabalho, ou simplesmente sente que se distanciou de si e quer se reencontrar.</p>
+            <div>
+              <p class="label" style="margin-bottom:12px">Demandas</p>
+              <ul class="tags">
+                <li>Ansiedade</li><li>Estresse</li><li>Esgotamento e burnout</li><li>Depressão</li>
+                <li>Transtorno bipolar</li><li>Transtorno de personalidade borderline</li>
+                <li>TOC</li><li>Traumas</li><li>Luto e perdas</li>
+              </ul>
+              <p class="muted" style="font-size:14.5px">Atendimento individual, online, para adultos a partir de 18 anos.</p>
+            </div>
+          </div>
+        </details>
+
+        <details id="como-agendar">
+          <summary><span class="n">06</span><span><b>Como agendar</b><small>Do horário à sessão, em quatro passos</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Você escolhe o horário na agenda. O resto a gente combina pelo WhatsApp, com tranquilidade.</p>
+            <ol class="steps">
+              <li><div><b>Escolha um horário</b><span>Na agenda logo abaixo, entre os horários livres.</span></div></li>
+              <li><div><b>Eu confirmo pelo WhatsApp</b><span>Com o link da sessão e os dados do PIX.</span></div></li>
+              <li><div><b>Começamos pela sua demanda</b><span>Para entender o que te traz e combinar como seguimos.</span></div></li>
+              <li><div><b>A frequência é combinada entre nós</b><span>Semanal, quinzenal ou duas vezes por semana.</span></div></li>
+            </ol>
+          </div>
+        </details>
+      </div>
     </div>
   </section>
 
   <!-- ===== Agenda ===== -->
   <section id="agendar" aria-labelledby="t-agenda">
     <div class="wrap">
-      <div class="head">
-        <p class="eyebrow label-teal">Agenda online</p>
-        <h2 id="t-agenda">Agende a sua sessão</h2>
-        <p class="muted" style="margin:0">Terapia online, individual, com 1 hora de duração. Pagamento via PIX.</p>
+      <div class="book-head">
+        <div>
+          <p class="label">Agenda online</p>
+          <h2 id="t-agenda" style="margin:0">Agende a sua <em>sessão</em></h2>
+        </div>
+        <p>Terapia online, individual, com 1 hora de duração. Pagamento via PIX, depois da confirmação.</p>
       </div>
 
       <div class="booking">
         <div class="cal">
           <p class="tz">Horário de Brasília</p>
           <div class="cal-nav">
-            <button class="icon-btn" id="prev" type="button" aria-label="Mês anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button class="icon-btn" id="prev" type="button" aria-label="Mês anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 6l-6 6 6 6"/></svg></button>
             <strong id="month" aria-live="polite"></strong>
-            <button class="icon-btn" id="next" type="button" aria-label="Próximo mês"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+            <button class="icon-btn" id="next" type="button" aria-label="Próximo mês"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg></button>
           </div>
           <div class="grid" id="dows" aria-hidden="true"></div>
           <div class="grid" id="days" role="group" aria-label="Dias do mês"></div>
@@ -487,16 +552,14 @@
         <div class="slots">
           <p class="slots-title" id="slots-title" aria-live="polite"></p>
           <div class="slot-list" id="slot-list"></div>
-          <button class="btn btn-line-teal" id="next-free" type="button" hidden>Próxima disponibilidade</button>
-          <details class="summary" open>
-            <summary>Detalhes do serviço</summary>
+          <button class="btn" id="next-free" type="button" hidden>Próxima disponibilidade</button>
+          <div class="summary-box">
             <p><b>Sessão de terapia online · 1 hora</b></p>
             <p id="sum-when" class="muted">Escolha um dia e um horário</p>
             <p class="muted">Renata de Oliveira Falco · CRP 09|7780</p>
-            <p class="muted">Pagamento via PIX</p>
-          </details>
-          <a class="btn btn-teal" id="confirm" href="#" aria-disabled="true" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Próximo: confirmar no WhatsApp
+          </div>
+          <a class="btn btn-solid" id="confirm" href="#" aria-disabled="true" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Confirmar no WhatsApp
           </a>
           <p class="fineprint">A mensagem já vai pronta, só com o dia e o horário. Eu confirmo a vaga e envio o link da sessão e os dados do PIX.</p>
         </div>
@@ -504,105 +567,214 @@
     </div>
   </section>
 
-  <!-- ===== Empresas ===== -->
-  <section id="empresas" aria-labelledby="t-emp">
+  <!-- ===== Convite ===== -->
+  <section class="invite" aria-label="Convite">
     <div class="wrap">
-      <div class="elev-top">
+      <p class="big">Se essas perguntas fizeram sentido para você, talvez seja o momento de <em>buscar as suas respostas.</em></p>
+      <p class="muted" style="margin:0 auto 30px;max-width:46ch">A gente começa pelo que está presente hoje, no seu tempo.</p>
+      <a class="btn btn-solid" href="#agendar">Agende sua sessão</a>
+    </div>
+  </section>
+
+  <!-- ===== Elevare · afirmação (faixa marinho) ===== -->
+  <section class="ask ask-elev" id="empresas" aria-labelledby="t-emp-band">
+    <div class="wrap">
+      <div class="side">
+        <p class="label" id="t-emp-band"><span class="n">02.</span>Gestão de pessoas</p>
+        <p class="sub">Elevare Soluções em Gestão</p>
+      </div>
+      <div>
+        <ul class="questions">
+          <li>Rotatividade. Afastamentos. <em>Conflitos entre áreas.</em></li>
+          <li>Lideranças que sabem o que fazer e não conseguem praticar.</li>
+          <li>Treinamento entregue, <em>resultado que não aparece.</em></li>
+        </ul>
+        <p class="after">Quase sempre, o que trava a entrega não está no organograma. Está nas relações, nos papéis e no que ninguém consegue nomear. <strong>É por aí que a Elevare começa.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Elevare · apresentação ===== -->
+  <section class="intro intro-elev" aria-labelledby="t-emp">
+    <div class="wrap">
+      <div>
+        <p class="label">Elevare · Soluções em gestão</p>
+        <h2 id="t-emp">Diagnóstico preciso, desenvolvimento com <em>método.</em></h2>
+        <p class="lead">Olhar sistêmico e estratégico, com essência humana. Uma equipe também é um sistema, e o diagnóstico mostra onde lideranças, fluxos e relações pedem ajuste.</p>
+        <dl class="meta">
+          <div><dt>Para</dt><dd>Empresas e profissionais</dd></div>
+          <div><dt>Formato</dt><dd>Presencial e online</dd></div>
+          <div><dt>Abrangência</dt><dd>Mais de 10 estados</dd></div>
+          <div><dt>Condução</dt><dd>Renata Falco</dd></div>
+        </dl>
+      </div>
+      <div class="body">
+        <figure class="elev-photo">
+          <img src="assets/renata-elevare-v3.jpg" alt="Renata Falco sentada numa cadeira, com a mão no queixo, diante de um painel de madeira" width="880" height="1100" loading="lazy">
+          <img class="elev-logo" src="assets/elevare.png" alt="Elevare Soluções em Gestão" width="400" height="99">
+        </figure>
+        <p>Cada trabalho é alinhado, conduzido e ajustado a partir da realidade do cliente. Primeiro vem a análise de cenário, detalhada e sistêmica. Depois, a solução desenhada para aquela demanda, e não um pacote pronto.</p>
+        <p class="pull">Sensibilizar antes de ensinar. Conscientizar antes de cobrar.</p>
+        <p style="margin-top:28px">É o princípio que orienta cada projeto: criar as condições para que o conhecimento já adquirido vire comportamento observável no dia a dia, e resultado percebido por quem está do outro lado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Elevare · soluções ===== -->
+  <section class="process process-elev" aria-labelledby="t-sol">
+    <div class="wrap">
+      <div class="process-head">
         <div>
-          <p class="eyebrow label-navy">Gestão de pessoas · Elevare</p>
-          <h2 id="t-emp">Diagnóstico preciso, desenvolvimento com método.</h2>
-          <p class="lead" style="margin:0">Rotatividade, afastamentos, conflitos entre áreas, saúde mental no trabalho. A mesma lente sistêmica da clínica orienta o trabalho nas empresas: uma equipe também é um sistema, e o diagnóstico mostra onde lideranças, fluxos e relações pedem ajuste.</p>
+          <p class="label">Soluções</p>
+          <h2 id="t-sol" style="margin:0">Como a Elevare <em>atua</em></h2>
         </div>
-        <img src="assets/elevare.png" alt="Elevare Soluções em Gestão">
+        <p>Seis pontos para entender o que a Elevare entrega e como cada projeto acontece. Toque em cada um para ler.</p>
       </div>
 
-      <div class="products">
-        <article class="product"><span class="n">01</span><h3>Diagnóstico organizacional</h3><p>Leitura analítica do cenário, das pessoas e dos processos. É por ele que todo trabalho começa.</p></article>
-        <article class="product"><span class="n">02</span><h3>Mentoria de carreira e liderança</h3><p>Individual, para profissionais e lideranças em momento de decisão, transição ou ampliação de responsabilidade.</p></article>
-        <article class="product"><span class="n">03</span><h3>Desenvolvimento de lideranças e equipes</h3><p>Treinamentos vivenciais desenhados para a demanda da empresa, com prática entre os encontros.</p></article>
-        <article class="product"><span class="n">04</span><h3>Palestras e workshops</h3><p>Saúde mental no trabalho, autorresponsabilidade, liderança e relações de trabalho.</p></article>
+      <div class="acc acc-elev">
+        <details id="diagnostico" open>
+          <summary><span class="n">01</span><span><b>Diagnóstico organizacional</b><small>É por ele que todo trabalho começa</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Leitura analítica do cenário, das pessoas e dos processos, para entender a demanda real antes de propor qualquer solução.</p>
+            <div>
+              <p>Inclui alinhamento com a diretoria, escuta das lideranças e análise da cultura e do clima organizacional.</p>
+              <p>Ao final, uma devolutiva com percepções, pontos de atenção e recomendações de continuidade.</p>
+            </div>
+          </div>
+        </details>
+
+        <details id="mentoria">
+          <summary><span class="n">02</span><span><b>Mentoria estratégica</b><small>Comportamento, liderança e carreira</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Individual, para profissionais e lideranças em momento de decisão, transição ou ampliação de responsabilidade.</p>
+            <div>
+              <p>O trabalho parte do autoconhecimento: clareza sobre potenciais, limitações e sobre os motivos pelos quais você reage de determinada forma. Com isso, a conduta fica mais estratégica, o desgaste emocional diminui e o posicionamento ganha segurança.</p>
+              <ul class="tags">
+                <li>Assessment de liderança</li><li>Processo inicial de 5 sessões</li><li>Até 1h30 por sessão</li><li>Online, semanal ou quinzenal</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <details id="liderancas">
+          <summary><span class="n">03</span><span><b>Lideranças e equipes</b><small>Do saber ao fazer</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Programas vivenciais desenhados para a demanda da empresa, com prática entre os encontros.</p>
+            <ol class="steps">
+              <li><div><b>Sensibilização</b><span>Tocar o que move cada profissional e trazer à tona o que hoje impede a entrega.</span></div></li>
+              <li><div><b>Conscientização</b><span>Tornar visível o papel de cada um no resultado coletivo.</span></div></li>
+              <li><div><b>Compromisso e prática</b><span>Transformar percepção em ação, com acordos individuais e de equipe.</span></div></li>
+              <li><div><b>Efeito cascata</b><span>A liderança vive o processo primeiro e chega às equipes como exemplo.</span></div></li>
+            </ol>
+          </div>
+        </details>
+
+        <details id="palestras">
+          <summary><span class="n">04</span><span><b>Palestras e workshops</b><small>Temas que movem pessoas e resultados</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Encontros para lideranças e equipes, com linguagem prática e exemplos da rotina da empresa.</p>
+            <div>
+              <ul class="tags">
+                <li>Saúde mental no trabalho</li><li>Autorresponsabilidade</li><li>Liderança</li><li>Relações de trabalho</li>
+                <li>Cultura e clima organizacional</li><li>Gestão de conflitos</li><li>Feedback</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <details id="metodo">
+          <summary><span class="n">05</span><span><b>O método</b><small>Três referências em todo projeto</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Cada pessoa se torna agente de mudança quando enxerga a si, ao outro e ao contexto.</p>
+            <ol class="steps">
+              <li><div><b>Autopercepção</b><span>Evidências que fortalecem a autorresponsabilidade.</span></div></li>
+              <li><div><b>Percepção do outro</b><span>Relações profissionais respeitosas e sustentáveis.</span></div></li>
+              <li><div><b>Análise de cenário</b><span>Pontos críticos e potenciais, sob o olhar da cultura organizacional.</span></div></li>
+            </ol>
+          </div>
+        </details>
+
+        <details id="contratar">
+          <summary><span class="n">06</span><span><b>Como contratar</b><small>Da conversa inicial à devolutiva</small></span><span class="ic" aria-hidden="true"></span></summary>
+          <div class="panel">
+            <p class="big">Todo projeto começa por uma conversa para entender a demanda. A proposta vem depois, desenhada para ela.</p>
+            <div>
+              <ol class="steps">
+                <li><div><b>Conversa inicial</b><span>Pelo WhatsApp, para entender o contexto.</span></div></li>
+                <li><div><b>Alinhamento e escuta</b><span>Com quem decide e com quem vive a rotina.</span></div></li>
+                <li><div><b>Proposta personalizada</b><span>Escopo, formato, cronograma e entregáveis.</span></div></li>
+                <li><div><b>Condução e devolutiva</b><span>Com relatório e recomendações de continuidade.</span></div></li>
+              </ol>
+              <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg><span>Todo o processo é sigiloso e confidencial, com acordo de não divulgação quando a empresa preferir.</span></p>
+            </div>
+          </div>
+        </details>
       </div>
 
-      <div class="sectors">
-        <p class="eyebrow">Experiência em</p>
-        <ul class="chips" style="margin:0">
-          <li>Varejo</li><li>Indústria</li><li>Serviços</li><li>Agronegócio</li><li>Investimentos</li>
-          <li>Advocacia</li><li>Franquias</li><li>Distribuição de medicamentos</li><li>Tecnologia</li>
-        </ul>
+      <div class="elev-rows">
+        <div>
+          <p class="label">Experiência em</p>
+          <ul class="inline">
+            <li>Varejo</li><li>Indústria</li><li>Serviços</li><li>Agronegócio</li><li>Investimentos</li>
+            <li>Advocacia</li><li>Franquias</li><li>Distribuição de medicamentos</li><li>Tecnologia</li><li>Cooperativismo</li>
+          </ul>
+        </div>
+        <div>
+          <p class="label">Formação</p>
+          <ul>
+            <li>Mentoria estratégica · Creative Learning Institute</li>
+            <li>Professional &amp; Executive Coach · SLAC</li>
+            <li>XXIV CEPE, Ciclo de Estudos Políticos e Estratégicos · ADESG (Associação dos Diplomados da Escola Superior de Guerra), Delegacia em Goiás</li>
+          </ul>
+        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="sectors">
-        <p class="eyebrow">Formação</p>
-        <ul class="cred">
-          <li>Mentoria estratégica · Creative Learning Institute</li>
-          <li>Professional &amp; Executive Coach · SLAC</li>
-          <li>XXIV CEPE, Ciclo de Estudos Políticos e Estratégicos · ADESG (Associação dos Diplomados da Escola Superior de Guerra), Delegacia em Goiás</li>
-        </ul>
-      </div>
-
-      <div class="elev-cta">
-        <a class="btn btn-navy" href="https://wa.me/5562981861276?text=Ol%C3%A1%2C%20Renata!%20Gostaria%20de%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20Elevare%20para%20a%20minha%20empresa." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Conhecer as soluções da Elevare</a>
-        <a class="btn btn-line-navy" href="https://www.instagram.com/elevaregestao/" target="_blank" rel="noopener">@elevaregestao</a>
+  <!-- ===== Elevare · convite ===== -->
+  <section class="invite invite-elev" aria-label="Conversa com a Elevare">
+    <div class="wrap">
+      <p class="big">Todo trabalho começa por entender <em>a demanda real.</em></p>
+      <p class="muted" style="margin:0 auto 30px;max-width:46ch">Para empresas e para profissionais que querem crescer com clareza e método.</p>
+      <div class="invite-ctas">
+        <a class="btn btn-elev" href="https://wa.me/5562981861276?text=Ol%C3%A1%2C%20Renata!%20Gostaria%20de%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20Elevare%20para%20a%20minha%20empresa." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>Conhecer as soluções da Elevare</a>
+        <a class="link-arrow" href="https://www.instagram.com/elevaregestao/" target="_blank" rel="noopener">@elevaregestao</a>
       </div>
     </div>
   </section>
 
   <!-- ===== Depoimentos ===== -->
   <section id="depoimentos" aria-labelledby="t-depo">
-    <div class="wrap depo">
-      <div class="depo-side">
-        <p class="eyebrow">Depoimentos</p>
-        <h2 id="t-depo">Palavras que recebi pelo caminho</h2>
-        <p class="muted" style="margin:0">Trechos de mensagens enviadas espontaneamente, publicados com autorização e sem identificação.</p>
-        <img src="assets/renata-depoimentos.jpg" alt="Renata Falco sorrindo, sentada, olhando para o lado" width="720" height="720" loading="lazy">
-      </div>
-
-      <div>
-        <div class="quotes" id="quotes">
-          <figure class="q wide">
-            <blockquote>Muito do profissional que me tornei nasceu daquilo que aprendi observando o seu exemplo. <strong>Sua postura, seus ensinamentos e a forma como conduzia o trabalho foram fundamentais para a construção da minha trajetória.</strong></blockquote>
-            <figcaption>Mensagem recebida</figcaption>
-          </figure>
-          <figure class="q">
-            <blockquote>Você foi um dos primeiros e mais importantes exemplos e inspiração que tive. Importante você saber que fez parte da minha base de formação… e eu sou muito grata.</blockquote>
-            <figcaption>Mensagem recebida</figcaption>
-          </figure>
-          <figure class="q">
-            <blockquote>Você é uma das poucas pessoas que me sinto acolhida! […] <strong>Você me dá segurança!</strong></blockquote>
-            <figcaption>Mensagem recebida</figcaption>
-          </figure>
-          <figure class="q">
-            <blockquote>Mais uma vez, muito obrigada, obrigada mesmo por isso tudo. Vejo uma evolução gritante em tão pouco tempo, de uma vida inteira…</blockquote>
-            <figcaption>Mensagem recebida</figcaption>
-          </figure>
-          <figure class="q">
-            <blockquote>Você é maravilhosa demais em minha vida. Eu quero poder potencializar isso para a humanidade…</blockquote>
-            <figcaption>Mensagem recebida</figcaption>
-          </figure>
-          <figure class="q wide">
-            <blockquote>Você é uma profissional excepcional. […] Quem teve e tem a oportunidade de trabalhar com você é muito privilegiado. <strong>Sou muito grata por todos os ensinamentos e por tudo que aprendi durante aquele período.</strong></blockquote>
-            <figcaption>Mensagem recebida</figcaption>
-          </figure>
-          <figure class="q wide">
-            <blockquote>Tive a oportunidade de ser liderada por você e, sem dúvida, uma das coisas que mais levei dessa experiência foi a importância de me posicionar. <strong>Aprendi que se posicionar não significa confrontar, mas ter coragem para falar, questionar, trazer pontos de vista diferentes e sustentar aquilo em que acreditamos, sempre com respeito e responsabilidade.</strong> […] Esse foi um aprendizado que carrego comigo até hoje.</blockquote>
-            <figcaption>Mensagem recebida</figcaption>
-          </figure>
+    <div class="wrap">
+      <div class="depo-head">
+        <div>
+          <p class="label">Depoimentos</p>
+          <h2 id="t-depo" style="margin:0">Palavras que recebi <em>pelo caminho</em></h2>
         </div>
-        <div class="dots" id="dots" aria-hidden="true"></div>
+        <p>Trechos de mensagens enviadas espontaneamente, publicados com autorização e sem identificação.</p>
+      </div>
+      <div class="quotes">
+        <figure class="q"><blockquote>Muito do profissional que me tornei nasceu daquilo que aprendi observando o seu exemplo. <strong>Sua postura, seus ensinamentos e a forma como conduzia o trabalho foram fundamentais para a construção da minha trajetória.</strong></blockquote><figcaption>Mensagem recebida</figcaption></figure>
+        <figure class="q"><blockquote>Você foi um dos primeiros e mais importantes exemplos e inspiração que tive. Importante você saber que fez parte da minha base de formação… e eu sou muito grata.</blockquote><figcaption>Mensagem recebida</figcaption></figure>
+        <figure class="q"><blockquote>Você é uma das poucas pessoas que me sinto acolhida! […] <strong>Você me dá segurança!</strong></blockquote><figcaption>Mensagem recebida</figcaption></figure>
+        <figure class="q"><blockquote>Mais uma vez, muito obrigada, obrigada mesmo por isso tudo. Vejo uma evolução gritante em tão pouco tempo, de uma vida inteira…</blockquote><figcaption>Mensagem recebida</figcaption></figure>
+        <figure class="q"><blockquote>Você é maravilhosa demais em minha vida. Eu quero poder potencializar isso para a humanidade…</blockquote><figcaption>Mensagem recebida</figcaption></figure>
+        <figure class="q"><blockquote>Você é uma profissional excepcional. […] Quem teve e tem a oportunidade de trabalhar com você é muito privilegiado. <strong>Sou muito grata por todos os ensinamentos e por tudo que aprendi durante aquele período.</strong></blockquote><figcaption>Mensagem recebida</figcaption></figure>
+        <figure class="q close"><blockquote>Tive a oportunidade de ser liderada por você e, sem dúvida, uma das coisas que mais levei dessa experiência foi a importância de me posicionar. <strong>Aprendi que se posicionar não significa confrontar, mas ter coragem para falar, questionar, trazer pontos de vista diferentes e sustentar aquilo em que acreditamos, sempre com respeito e responsabilidade.</strong> […] Esse foi um aprendizado que carrego comigo até hoje.</blockquote><figcaption>Mensagem recebida</figcaption></figure>
       </div>
     </div>
   </section>
 
   <!-- ===== Sobre ===== -->
-  <section id="sobre" aria-labelledby="t-sobre" style="background:var(--surface);border-top:1px solid var(--line)">
+  <section id="sobre" aria-labelledby="t-sobre">
     <div class="wrap">
       <div class="about">
         <img src="assets/renata-sobre.jpg" alt="Renata Falco de roupa clara, com a mão no queixo, olhando para o lado" width="880" height="1100" loading="lazy">
-        <div>
-          <p class="eyebrow">Sobre</p>
-          <h2 id="t-sobre">Conheço o trabalho pelo olhar de quem o vive</h2>
-          <p class="lead">Mais de 20 anos em gestão de pessoas, em empresas de perfil multinacional a familiar, no varejo, na indústria e em serviços. De quem decide como o trabalho funciona a quem sente, no dia a dia, o efeito de cada decisão.</p>
-          <p class="muted">Minha atuação principal é em desenvolvimento organizacional e gestão estratégica e sistêmica de pessoas e processos. Também tenho vivência na implantação de governança, compliance e gestão de riscos, o que amplia a minha visão sobre a empresa como um todo.</p>
+        <div class="body">
+          <p class="label">Sobre</p>
+          <h2 id="t-sobre">Conheço o trabalho pelo olhar de <em>quem o vive</em></h2>
+          <p class="lead" style="max-width:40ch">Mais de 20 anos em gestão de pessoas, em empresas de perfil multinacional a familiar, no varejo, na indústria e em serviços.</p>
+          <p>Minha atuação principal é em desenvolvimento organizacional e gestão estratégica e sistêmica de pessoas e processos. Também tenho vivência na implantação de governança, compliance e gestão de riscos, o que amplia a minha visão sobre a empresa como um todo.</p>
           <ul>
             <li>Formada em Psicologia pela PUC Goiás</li>
             <li>Psicóloga · CRP 09|7780</li>
@@ -620,27 +792,26 @@
   </section>
 </main>
 
-<!-- ===== Rodapé ===== -->
 <footer>
   <div class="wrap">
     <div class="foot">
       <div>
-        <h2>Atendimentos online</h2>
+        <h2>Atendimento <em>online</em></h2>
         <p>Para psicoterapia, mentoria ou atuação na sua empresa.</p>
-        <a class="btn btn-white" href="#agendar">Agendar psicoterapia</a>
+        <a class="btn btn-light" href="#agendar">Agendar psicoterapia</a>
       </div>
       <div>
-        <p class="eyebrow">Psicologia clínica</p>
+        <p class="label">Psicologia clínica</p>
         <ul>
-          <li><a href="https://wa.me/5562981861276" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>WhatsApp</a></li>
-          <li><a href="https://www.instagram.com/renata.falco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg>@renata.falco</a></li>
+          <li><a href="https://wa.me/5562981861276" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 19.5l1.2-3.6A8 8 0 1 1 8.4 18.6z"/></svg>WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/renata.falco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg>@renata.falco</a></li>
           <li><a href="https://www.linkedin.com/in/renatafalco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 8.6h3.1V19H5.2zM6.75 3.9a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10.3 8.6h3v1.4h.04c.42-.8 1.44-1.64 2.97-1.64 3.17 0 3.76 2.09 3.76 4.8V19h-3.1v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V19h-3.1z"/></svg>Renata Falco</a></li>
         </ul>
       </div>
       <div>
-        <p class="eyebrow">Gestão de pessoas</p>
+        <p class="label">Gestão de pessoas</p>
         <ul>
-          <li><a href="https://www.instagram.com/elevaregestao/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg>@elevaregestao</a></li>
+          <li><a href="https://www.instagram.com/elevaregestao/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg>@elevaregestao</a></li>
           <li><a href="https://www.linkedin.com/company/elevaresolucoesemgestao/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 8.6h3.1V19H5.2zM6.75 3.9a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10.3 8.6h3v1.4h.04c.42-.8 1.44-1.64 2.97-1.64 3.17 0 3.76 2.09 3.76 4.8V19h-3.1v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V19h-3.1z"/></svg>Elevare Soluções em Gestão</a></li>
         </ul>
       </div>
@@ -706,7 +877,7 @@ const AGENDA = {
   let selDay = nextFree(today), selTime = null;
   if (selDay) view = new Date(selDay.getFullYear(), selDay.getMonth(), 1);
 
-  $("dows").innerHTML = ["dom.","seg.","ter.","qua.","qui.","sex.","sáb."].map(s => `<span class="dow">${s}</span>`).join("");
+  $("dows").innerHTML = ["dom","seg","ter","qua","qui","sex","sáb"].map(s => `<span class="dow">${s}</span>`).join("");
 
   function renderMonth(){
     const m = fmtMonth.format(view);
@@ -735,7 +906,8 @@ const AGENDA = {
       return;
     }
     const s = slotsFor(selDay);
-    titleEl.textContent = "Disponibilidade para " + fmtDay.format(selDay);
+    const t = fmtDay.format(selDay);
+    titleEl.textContent = t.charAt(0).toUpperCase() + t.slice(1);
     if (!s.length){
       listEl.innerHTML = '<p class="empty">Indisponível</p>';
       nextFreeEl.hidden = false;
@@ -778,13 +950,18 @@ const AGENDA = {
   $("next").addEventListener("click", () => { view = new Date(view.getFullYear(), view.getMonth() + 1, 1); renderMonth(); });
   render();
 
-  /* pontinhos do carrossel de depoimentos (celular) */
-  const quotes = $("quotes"), dots = $("dots"), cards = [...quotes.children];
-  dots.innerHTML = cards.map((_, i) => `<span class="${i ? "" : "on"}"></span>`).join("");
-  quotes.addEventListener("scroll", () => {
-    const i = Math.round(quotes.scrollLeft / (cards[0].offsetWidth + 12));
-    [...dots.children].forEach((s, j) => s.classList.toggle("on", j === i));
-  }, {passive:true});
+  /* Link direto para cada ponto do processo (ex.: renatafalco.com.br/#sinais):
+     abre o item e rola até ele. Serve para mandar o link certo no story. */
+  function openFromHash(){
+    const el = location.hash && document.getElementById(location.hash.slice(1));
+    if (!el || el.tagName !== "DETAILS") return;
+    el.open = true;
+    /* rola depois do layout (fontes e item já abertos), senão para no lugar errado */
+    setTimeout(() => el.scrollIntoView({block:"start", behavior:"auto"}), 80);
+  }
+  window.addEventListener("hashchange", openFromHash);
+  if (document.readyState === "complete") openFromHash();
+  else window.addEventListener("load", openFromHash);
 })();
 </script>
 </body>
